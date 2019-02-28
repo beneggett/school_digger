@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/school_digger.svg)](https://badge.fury.io/rb/school_digger)
+
 # SchoolDigger
 
 Fully Implements the SchoolDigger API in Ruby
@@ -17,6 +19,12 @@ And then execute:
 Or install it yourself as:
 
     $ gem install school_digger
+
+Be sure to define your SchoolDigger credentials by setting up environment variables in your application appropriately. Refer to the .env.sample file for details.
+```
+SCHOOL_DIGGER_APP_ID = 'my-id'
+SCHOOL_DIGGER_APP_KEY = 'my-key'
+```
 
 ## Usage
 
@@ -63,6 +71,8 @@ SchoolDigger::Api.new.school_rankings('CA')
 ## Features
 
 Implemented APIs from [SchoolDigger API Docs](https://developer.schooldigger.com/docs#/)
+
+(Last updated on February 28, 2019)
 
 | API |  Description | Implemented? |
 | --- | --- | --- |
