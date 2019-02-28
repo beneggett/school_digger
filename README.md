@@ -6,7 +6,6 @@ Fully Implements the SchoolDigger API in Ruby
 ## Installation
 
 Add this line to your application's Gemfile:
-
 ```ruby
 gem 'school_digger'
 ```
@@ -21,23 +20,59 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+There are 7 primary APIs that are wrapped. Below you will see basic examples of how to use them. For more information about what optional query parameters are available, please consult the [SchoolDigger API Docs](https://developer.schooldigger.com/docs#/)
+
+
+#### Autocomplete
+```
+SchoolDigger::Api.new.autocomplete('San Die', st: "CA")
+```
+
+#### Search Districts
+```
+SchoolDigger::Api.new.districts('CA')
+SchoolDigger::Api.new.schools('CA', q: "Los Angeles")
+```
+
+#### Find a District
+```
+SchoolDigger::Api.new.district("0600001")
+```
+
+#### Show District Rankings by State
+```
+SchoolDigger::Api.new.district_rankings('CA')
+```
+
+#### Search Schools
+```
+SchoolDigger::Api.new.schools('CA')
+SchoolDigger::Api.new.schools('CA', q: "East High")
+```
+
+#### Find a School
+```
+SchoolDigger::Api.new.school("490003601072")
+```
+
+#### Show School Rankings by State
+```
+SchoolDigger::Api.new.school_rankings('CA')
+```
 
 ## Features
 
 Implemented APIs from [SchoolDigger API Docs](https://developer.schooldigger.com/docs#/)
 
-
-
-| API |  Description | Implemented? | Priority |
-| --- | --- | --- | --- |
-| Autocomplete | Returns a simple and quick list of schools for use in a client-typed autocomplete | 👍 | 👍 |
-| Search Districts | Returns a list of districts | 👍 | 👍 |
-| Find District | Returns a detailed record for one district | 👍 | 👍 |
-| Search Schools | Returns a list of schools | 👍 | 👍 |
-| Find School | Returns a detailed record for one school | 👍 | 👍 |
-| School Rankings | Returns a SchoolDigger School Rankings list | 👍 | 🔻 |
-| District Rankings | Returns a SchoolDigger School Rankings list | 👍 | 🔻 |
+| API |  Description | Implemented? |
+| --- | --- | --- |
+| Autocomplete | Returns a simple and quick list of schools for use in a client-typed autocomplete | 👍 |
+| Search Districts | Returns a list of districts | 👍 |
+| Find District | Returns a detailed record for one district | 👍 |
+| Search Schools | Returns a list of schools | 👍 |
+| Find School | Returns a detailed record for one school | 👍 |
+| School Rankings | Returns a SchoolDigger School Rankings list | 👍 |
+| District Rankings | Returns a SchoolDigger School Rankings list | 👍 |
 
 ## Development
 
