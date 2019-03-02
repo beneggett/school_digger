@@ -1,4 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/school_digger.svg)](https://badge.fury.io/rb/school_digger)
+[![Build Status](https://travis-ci.com/beneggett/school_digger.svg?branch=master)](https://travis-ci.com/beneggett/school_digger)
 
 # SchoolDigger
 
