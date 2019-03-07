@@ -1,6 +1,6 @@
 [![Gem Version](https://badge.fury.io/rb/school_digger.svg)](https://badge.fury.io/rb/school_digger)
 [![Build Status](https://travis-ci.com/beneggett/school_digger.svg?branch=master)](https://travis-ci.com/beneggett/school_digger)
-
+[![Coverage Status](https://coveralls.io/repos/github/beneggett/school_digger/badge.svg?branch=master)](https://coveralls.io/github/beneggett/school_digger?branch=master)
 # SchoolDigger
 
 Fully Implements the SchoolDigger API in Ruby
@@ -68,6 +68,16 @@ SchoolDigger::Api.new.school("490003601072")
 ```
 SchoolDigger::Api.new.school_rankings('CA')
 ```
+
+ #### Automatic pagination
+ There is a built in `next_page` method that will fetch the next page of results for any response
+
+```
+response = SchoolDigger::Api.new.districts('CA')
+next_page_response = SchoolDigger::Api.new.next_page(response)
+```
+
+It is able to be used with any api here that supports standard paginate
 
 ## Features
 

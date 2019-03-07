@@ -1,0 +1,1744 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.schooldigger.com/v1.1/rankings/districts/CA?appID=<SCHOOL_DIGGER_APP_ID>&appKey=<SCHOOL_DIGGER_APP_KEY>&page=1&perPage=50
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '131922'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/10.0
+      X-Rate-Limit-Limit:
+      - '500'
+      X-Rate-Limit-Remaining:
+      - '492'
+      X-Rate-Limit-Reset:
+      - '60'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 07 Mar 2019 19:31:15 GMT
+    body:
+      encoding: UTF-8
+      string: "{\r\n  \"rankYear\": 2018,\r\n  \"rankYearCompare\": 2017,\r\n  \"rankYearsAvailable\":
+        [\r\n    2018,\r\n    2017,\r\n    2016,\r\n    2015,\r\n    2013,\r\n    2012,\r\n
+        \   2011,\r\n    2010,\r\n    2009,\r\n    2008,\r\n    2007,\r\n    2006,\r\n
+        \   2005,\r\n    2004\r\n  ],\r\n  \"numberOfDistricts\": 50,\r\n  \"numberOfPages\":
+        1,\r\n  \"districtList\": [\r\n    {\r\n      \"districtID\": \"0609270\",\r\n
+        \     \"districtName\": \"Cold Spring Elementary\",\r\n      \"phone\": \"(805)
+        969-2678\",\r\n      \"url\": \"https://www.schooldigger.com/go/CA/district/09270/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        34.441188,\r\n          \"longitude\": -119.659773\r\n        },\r\n        \"street\":
+        \"2243 Sycamore Canyon Rd.\",\r\n        \"city\": \"Santa Barbara\",\r\n
+        \       \"state\": \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\":
+        \"93108\",\r\n        \"zip4\": \"1909\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Santa+Barbara/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/93108/search.aspx\",\r\n
+        \       \"html\": \"2243 Sycamore Canyon Rd.<br />Santa Barbara, CA 93108-1909\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Santa Barbara\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Santa+Barbara/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"6\",\r\n
+        \     \"numberTotalSchools\": 1,\r\n      \"numberPrimarySchools\": 1,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 1,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 99.88,\r\n          \"rankScore\":
+        0.9966442\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        13,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        98.49,\r\n          \"rankScore\": 0.9755797\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 169,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 4,\r\n          \"numberOfTeachers\":
+        9.0,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        2.0,\r\n          \"numberOfTeachersElementary\": 7.0,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 7.4,\r\n          \"numberOfCoordsSupervisors\":
+        0.0,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 0.0,\r\n          \"numberOfSchoolAdministrators\":
+        0.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 4.0,\r\n          \"numberOfStudentSupportStaff\":
+        0.0,\r\n          \"numberOfOtherSupportStaff\": 2.5\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0635910\",\r\n      \"districtName\":
+        \"Saratoga Union Elementary\",\r\n      \"phone\": \"(408) 867-3424\",\r\n
+        \     \"url\": \"https://www.schooldigger.com/go/CA/district/35910/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        37.255504,\r\n          \"longitude\": -122.031707\r\n        },\r\n        \"street\":
+        \"20460 Forrest Hills Dr.\",\r\n        \"city\": \"Saratoga\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"95070\",\r\n
+        \       \"zip4\": \"6020\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Saratoga/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/95070/search.aspx\",\r\n
+        \       \"html\": \"20460 Forrest Hills Dr.<br />Saratoga, CA 95070-6020\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Santa Clara\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Santa+Clara/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 4,\r\n      \"numberPrimarySchools\": 3,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 2,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 99.77,\r\n          \"rankScore\":
+        0.9884582\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        8,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        99.07,\r\n          \"rankScore\": 0.9805172\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 1906,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 116,\r\n          \"numberOfTeachers\":
+        96.6,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        8.4,\r\n          \"numberOfTeachersElementary\": 88.2,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 27.7,\r\n          \"numberOfCoordsSupervisors\":
+        10.5,\r\n          \"numberOfGuidanceElem\": 2.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 1.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 11.0,\r\n          \"numberOfSchoolAdministrators\":
+        5.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 9.0,\r\n          \"numberOfStudentSupportStaff\":
+        8.6,\r\n          \"numberOfOtherSupportStaff\": 20.4\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0620700\",\r\n      \"districtName\":
+        \"Lakeside Joint\",\r\n      \"phone\": \"(408) 354-2372\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/20700/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.193755,\r\n          \"longitude\":
+        -122.018414\r\n        },\r\n        \"street\": \"19621 Black Rd.\",\r\n
+        \       \"city\": \"Los Gatos\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"95033\",\r\n        \"zip4\": \"9587\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Los+Gatos/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/95033/search.aspx\",\r\n
+        \       \"html\": \"19621 Black Rd.<br />Los Gatos, CA 95033-9587\"\r\n      },\r\n
+        \     \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\": true,\r\n
+        \     \"county\": {\r\n        \"countyName\": \"Santa Cruz\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Santa+Cruz/search.aspx\"\r\n      },\r\n
+        \     \"lowGrade\": \"K\",\r\n      \"highGrade\": \"5\",\r\n      \"numberTotalSchools\":
+        1,\r\n      \"numberPrimarySchools\": 1,\r\n      \"numberMiddleSchools\":
+        0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 3,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 99.65,\r\n          \"rankScore\":
+        0.9879901\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        64,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        92.57,\r\n          \"rankScore\": 0.8998594\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 86,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 7,\r\n          \"numberOfTeachers\":
+        5.0,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        1.0,\r\n          \"numberOfTeachersElementary\": 4.0,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 2.5,\r\n          \"numberOfCoordsSupervisors\":
+        0.0,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        0.3,\r\n          \"numberOfLEASupportStaff\": 0.0,\r\n          \"numberOfSchoolAdministrators\":
+        0.7,\r\n          \"numberOfSchoolAdminSupportStaff\": 1.8,\r\n          \"numberOfStudentSupportStaff\":
+        0.0,\r\n          \"numberOfOtherSupportStaff\": 0.1\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0634860\",\r\n      \"districtName\":
+        \"San Marino Unified\",\r\n      \"phone\": \"(626) 299-7000\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/34860/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 34.118216,\r\n          \"longitude\":
+        -118.112195\r\n        },\r\n        \"street\": \"1665 W. Dr.\",\r\n        \"city\":
+        \"San Marino\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\": \"California\",\r\n
+        \       \"zip\": \"91108\",\r\n        \"zip4\": \"2594\",\r\n        \"cityURL\":
+        \"https://www.schooldigger.com/go/CA/city/San+Marino/search.aspx\",\r\n        \"zipURL\":
+        \"https://www.schooldigger.com/go/CA/zip/91108/search.aspx\",\r\n        \"html\":
+        \"1665 W. Dr.<br />San Marino, CA 91108-2594\"\r\n      },\r\n      \"locationIsWithinBoundary\":
+        null,\r\n      \"hasBoundary\": true,\r\n      \"county\": {\r\n        \"countyName\":
+        \"Los Angeles\",\r\n        \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Los+Angeles/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"numberTotalSchools\": 4,\r\n      \"numberPrimarySchools\": 2,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 1,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 4,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 99.53,\r\n          \"rankScore\":
+        0.9872629\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        2,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        99.77,\r\n          \"rankScore\": 0.9893306\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 3074,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 367,\r\n          \"numberOfTeachers\":
+        150.0,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        11.2,\r\n          \"numberOfTeachersElementary\": 82.2,\r\n          \"numberOfTeachersSecondary\":
+        56.5,\r\n          \"numberOfAids\": 62.6,\r\n          \"numberOfCoordsSupervisors\":
+        2.0,\r\n          \"numberOfGuidanceElem\": 3.0,\r\n          \"numberOfGuidanceSecondary\":
+        6.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        2.0,\r\n          \"numberOfLEASupportStaff\": 12.0,\r\n          \"numberOfSchoolAdministrators\":
+        8.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 13.7,\r\n          \"numberOfStudentSupportStaff\":
+        9.0,\r\n          \"numberOfOtherSupportStaff\": 60.1\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0620130\",\r\n      \"districtName\":
+        \"La Canada Unified\",\r\n      \"phone\": \"(818) 952-8304\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/20130/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 34.2056,\r\n          \"longitude\":
+        -118.2036\r\n        },\r\n        \"street\": \"4490 Cornishon Ave.\",\r\n
+        \       \"city\": \"La Canada\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"91011\",\r\n        \"zip4\": \"3243\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/La+Canada/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/91011/search.aspx\",\r\n
+        \       \"html\": \"4490 Cornishon Ave.<br />La Canada, CA 91011-3243\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Los Angeles\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Los+Angeles/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"numberTotalSchools\": 4,\r\n      \"numberPrimarySchools\": 3,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 1,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 5,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 99.42,\r\n          \"rankScore\":
+        0.9869698\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        5,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        99.42,\r\n          \"rankScore\": 0.9829289\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 4132,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 226,\r\n          \"numberOfTeachers\":
+        171.7,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        10.0,\r\n          \"numberOfTeachersElementary\": 104.4,\r\n          \"numberOfTeachersSecondary\":
+        57.0,\r\n          \"numberOfAids\": 67.7,\r\n          \"numberOfCoordsSupervisors\":
+        16.1,\r\n          \"numberOfGuidanceElem\": 2.0,\r\n          \"numberOfGuidanceSecondary\":
+        9.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        5.0,\r\n          \"numberOfLEASupportStaff\": 11.5,\r\n          \"numberOfSchoolAdministrators\":
+        7.5,\r\n          \"numberOfSchoolAdminSupportStaff\": 17.5,\r\n          \"numberOfStudentSupportStaff\":
+        8.4,\r\n          \"numberOfOtherSupportStaff\": 64.4\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0628860\",\r\n      \"districtName\":
+        \"Orinda Union Elementary\",\r\n      \"phone\": \"(925) 254-4901\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/28860/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.88269,\r\n          \"longitude\":
+        -122.183061\r\n        },\r\n        \"street\": \"8 Altarinda Rd.\",\r\n
+        \       \"city\": \"Orinda\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94563\",\r\n        \"zip4\": \"2603\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Orinda/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94563/search.aspx\",\r\n
+        \       \"html\": \"8 Altarinda Rd.<br />Orinda, CA 94563-2603\"\r\n      },\r\n
+        \     \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\": true,\r\n
+        \     \"county\": {\r\n        \"countyName\": \"Contra Costa\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Contra+Costa/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 5,\r\n      \"numberPrimarySchools\": 4,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 6,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 99.3,\r\n          \"rankScore\":
+        0.9867357\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        1,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        99.88,\r\n          \"rankScore\": 0.9893367\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 2542,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 39,\r\n          \"numberOfTeachers\":
+        123.9,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        16.8,\r\n          \"numberOfTeachersElementary\": 107.1,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 43.3,\r\n          \"numberOfCoordsSupervisors\":
+        4.0,\r\n          \"numberOfGuidanceElem\": 2.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        0.0,\r\n          \"numberOfLEASupportStaff\": 5.0,\r\n          \"numberOfSchoolAdministrators\":
+        7.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 8.9,\r\n          \"numberOfStudentSupportStaff\":
+        9.9,\r\n          \"numberOfOtherSupportStaff\": 27.6\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0643140\",\r\n      \"districtName\":
+        \"Woodside Elementary\",\r\n      \"phone\": \"(650) 851-1571\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/43140/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.42812,\r\n          \"longitude\":
+        -122.2588\r\n        },\r\n        \"street\": \"3195 Woodside Rd.\",\r\n
+        \       \"city\": \"Woodside\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94062\",\r\n        \"zip4\": \"2552\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Woodside/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94062/search.aspx\",\r\n
+        \       \"html\": \"3195 Woodside Rd.<br />Woodside, CA 94062-2552\"\r\n      },\r\n
+        \     \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\": true,\r\n
+        \     \"county\": {\r\n        \"countyName\": \"San Mateo\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/San+Mateo/search.aspx\"\r\n      },\r\n
+        \     \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n      \"numberTotalSchools\":
+        1,\r\n      \"numberPrimarySchools\": 1,\r\n      \"numberMiddleSchools\":
+        0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 7,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 99.18,\r\n          \"rankScore\":
+        0.9850191\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        19,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        97.79,\r\n          \"rankScore\": 0.9668452\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 400,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 22,\r\n          \"numberOfTeachers\":
+        35.9,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        4.0,\r\n          \"numberOfTeachersElementary\": 30.9,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 6.7,\r\n          \"numberOfCoordsSupervisors\":
+        4.9,\r\n          \"numberOfGuidanceElem\": 0.8,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 0.0,\r\n          \"numberOfSchoolAdministrators\":
+        1.8,\r\n          \"numberOfSchoolAdminSupportStaff\": 4.0,\r\n          \"numberOfStudentSupportStaff\":
+        1.7,\r\n          \"numberOfOtherSupportStaff\": 3.0\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0622380\",\r\n      \"districtName\":
+        \"Las Lomitas Elementary\",\r\n      \"phone\": \"(650) 854-6311\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/22380/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.429,\r\n          \"longitude\":
+        -122.2011\r\n        },\r\n        \"street\": \"1011 Altschul Ave.\",\r\n
+        \       \"city\": \"Menlo Park\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94025\",\r\n        \"zip4\": \"6706\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Menlo+Park/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94025/search.aspx\",\r\n
+        \       \"html\": \"1011 Altschul Ave.<br />Menlo Park, CA 94025-6706\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"San Mateo\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/San+Mateo/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 2,\r\n      \"numberPrimarySchools\": 2,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 8,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 99.07,\r\n          \"rankScore\":
+        0.9849991\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        11,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        98.72,\r\n          \"rankScore\": 0.9770984\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 1386,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 97,\r\n          \"numberOfTeachers\":
+        71.7,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        6.3,\r\n          \"numberOfTeachersElementary\": 65.4,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 19.8,\r\n          \"numberOfCoordsSupervisors\":
+        2.7,\r\n          \"numberOfGuidanceElem\": 2.8,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 5.7,\r\n          \"numberOfSchoolAdministrators\":
+        5.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 3.7,\r\n          \"numberOfStudentSupportStaff\":
+        4.0,\r\n          \"numberOfOtherSupportStaff\": 18.4\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0625500\",\r\n      \"districtName\":
+        \"Montecito Union Elementary\",\r\n      \"phone\": \"(805) 969-3249\",\r\n
+        \     \"url\": \"https://www.schooldigger.com/go/CA/district/25500/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        34.432885,\r\n          \"longitude\": -119.632522\r\n        },\r\n        \"street\":
+        \"385 San Ysidro Rd.\",\r\n        \"city\": \"Santa Barbara\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"93108\",\r\n
+        \       \"zip4\": \"2131\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Santa+Barbara/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/93108/search.aspx\",\r\n
+        \       \"html\": \"385 San Ysidro Rd.<br />Santa Barbara, CA 93108-2131\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Santa Barbara\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Santa+Barbara/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"6\",\r\n
+        \     \"numberTotalSchools\": 1,\r\n      \"numberPrimarySchools\": 1,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 9,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 98.95,\r\n          \"rankScore\":
+        0.9839279\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        4,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        99.54,\r\n          \"rankScore\": 0.9847153\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 413,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 31,\r\n          \"numberOfTeachers\":
+        37.0,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        8.8,\r\n          \"numberOfTeachersElementary\": 28.1,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 17.0,\r\n          \"numberOfCoordsSupervisors\":
+        0.0,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 0.0,\r\n          \"numberOfSchoolAdministrators\":
+        2.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 7.0,\r\n          \"numberOfStudentSupportStaff\":
+        2.0,\r\n          \"numberOfOtherSupportStaff\": 14.5\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0617190\",\r\n      \"districtName\":
+        \"Hillsborough City Elementary\",\r\n      \"phone\": \"(650) 342-5193\",\r\n
+        \     \"url\": \"https://www.schooldigger.com/go/CA/district/17190/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        37.56337,\r\n          \"longitude\": -122.338291\r\n        },\r\n        \"street\":
+        \"300 El Cerrito Ave.\",\r\n        \"city\": \"Hillsborough\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"94010\",\r\n
+        \       \"zip4\": \"6818\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Hillsborough/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94010/search.aspx\",\r\n
+        \       \"html\": \"300 El Cerrito Ave.<br />Hillsborough, CA 94010-6818\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"San Mateo\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/San+Mateo/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 4,\r\n      \"numberPrimarySchools\": 3,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 10,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 98.83,\r\n          \"rankScore\":
+        0.9809695\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        15,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        98.26,\r\n          \"rankScore\": 0.9710922\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 1483,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 20,\r\n          \"numberOfTeachers\":
+        85.8,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        9.3,\r\n          \"numberOfTeachersElementary\": 76.5,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 28.0,\r\n          \"numberOfCoordsSupervisors\":
+        3.3,\r\n          \"numberOfGuidanceElem\": 3.7,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        3.0,\r\n          \"numberOfLEASupportStaff\": 8.0,\r\n          \"numberOfSchoolAdministrators\":
+        4.2,\r\n          \"numberOfSchoolAdminSupportStaff\": 5.0,\r\n          \"numberOfStudentSupportStaff\":
+        8.2,\r\n          \"numberOfOtherSupportStaff\": 11.0\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0622650\",\r\n      \"districtName\":
+        \"Los Altos Elementary\",\r\n      \"phone\": \"(650) 947-1150\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/22650/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.37165,\r\n          \"longitude\":
+        -122.106591\r\n        },\r\n        \"street\": \"201 Covington Rd.\",\r\n
+        \       \"city\": \"Los Altos\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94024\",\r\n        \"zip4\": \"4030\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Los+Altos/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94024/search.aspx\",\r\n
+        \       \"html\": \"201 Covington Rd.<br />Los Altos, CA 94024-4030\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Santa Clara\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Santa+Clara/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 9,\r\n      \"numberPrimarySchools\": 7,\r\n
+        \     \"numberMiddleSchools\": 2,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 11,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 98.71,\r\n          \"rankScore\":
+        0.9786061\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        6,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        99.3,\r\n          \"rankScore\": 0.9810640\r\n        }\r\n      ],\r\n      \"districtYearlyDetails\":
+        [\r\n        {\r\n          \"year\": 2017,\r\n          \"numberOfStudents\":
+        4527,\r\n          \"numberOfSpecialEdStudents\": null,\r\n          \"numberOfEnglishLanguageLearnerStudents\":
+        576,\r\n          \"numberOfTeachers\": 203.4,\r\n          \"numberOfTeachersPK\":
+        0.0,\r\n          \"numberOfTeachersK\": 22.2,\r\n          \"numberOfTeachersElementary\":
+        181.1,\r\n          \"numberOfTeachersSecondary\": 0.0,\r\n          \"numberOfAids\":
+        88.8,\r\n          \"numberOfCoordsSupervisors\": 23.6,\r\n          \"numberOfGuidanceElem\":
+        0.0,\r\n          \"numberOfGuidanceSecondary\": 0.0,\r\n          \"numberOfGuidanceTotal\":
+        0.0,\r\n          \"numberOfLibrarians\": 0.0,\r\n          \"numberOfLibraryStaff\":
+        0.0,\r\n          \"numberOfLEAAdministrators\": 2.6,\r\n          \"numberOfLEASupportStaff\":
+        10.9,\r\n          \"numberOfSchoolAdministrators\": 8.8,\r\n          \"numberOfSchoolAdminSupportStaff\":
+        14.9,\r\n          \"numberOfStudentSupportStaff\": 20.2,\r\n          \"numberOfOtherSupportStaff\":
+        39.7\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"districtID\": \"0631470\",\r\n
+        \     \"districtName\": \"Portola Valley Elementary\",\r\n      \"phone\":
+        \"(650) 851-1777\",\r\n      \"url\": \"https://www.schooldigger.com/go/CA/district/31470/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        37.36802,\r\n          \"longitude\": -122.212242\r\n        },\r\n        \"street\":
+        \"4575 Alpine Rd.\",\r\n        \"city\": \"Portola Valley\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"94028\",\r\n
+        \       \"zip4\": \"8040\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Portola+Valley/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94028/search.aspx\",\r\n
+        \       \"html\": \"4575 Alpine Rd.<br />Portola Valley, CA 94028-8040\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"San Mateo\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/San+Mateo/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 2,\r\n      \"numberPrimarySchools\": 2,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 12,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 98.6,\r\n          \"rankScore\":
+        0.9780760\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        10,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        98.84,\r\n          \"rankScore\": 0.9771832\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 627,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 17,\r\n          \"numberOfTeachers\":
+        40.9,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        3.0,\r\n          \"numberOfTeachersElementary\": 37.9,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 13.0,\r\n          \"numberOfCoordsSupervisors\":
+        11.8,\r\n          \"numberOfGuidanceElem\": 2.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 6.0,\r\n          \"numberOfSchoolAdministrators\":
+        2.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 4.0,\r\n          \"numberOfStudentSupportStaff\":
+        1.0,\r\n          \"numberOfOtherSupportStaff\": 8.0\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0631740\",\r\n      \"districtName\":
+        \"Rancho Santa Fe Elementary\",\r\n      \"phone\": \"(858) 756-1141\",\r\n
+        \     \"url\": \"https://www.schooldigger.com/go/CA/district/31740/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        33.021393,\r\n          \"longitude\": -117.206763\r\n        },\r\n        \"street\":
+        \"5927 La Granada\",\r\n        \"city\": \"Rancho Santa Fe\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"92067\",\r\n
+        \       \"zip4\": \"0809\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Rancho+Santa+Fe/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/92067/search.aspx\",\r\n
+        \       \"html\": \"5927 La Granada<br />Rancho Santa Fe, CA 92067-0809\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"San Diego\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/San+Diego/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 2,\r\n      \"numberPrimarySchools\": 1,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 13,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 98.48,\r\n          \"rankScore\":
+        0.9756767\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        3,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        99.65,\r\n          \"rankScore\": 0.9849644\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 641,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 25,\r\n          \"numberOfTeachers\":
+        46.6,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        3.0,\r\n          \"numberOfTeachersElementary\": 43.6,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 17.1,\r\n          \"numberOfCoordsSupervisors\":
+        12.1,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.5,\r\n          \"numberOfLEASupportStaff\": 2.5,\r\n          \"numberOfSchoolAdministrators\":
+        2.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 3.0,\r\n          \"numberOfStudentSupportStaff\":
+        3.0,\r\n          \"numberOfOtherSupportStaff\": 13.2\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0637500\",\r\n      \"districtName\":
+        \"South Pasadena Unified\",\r\n      \"phone\": \"(626) 441-5810\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/37500/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 34.114892,\r\n          \"longitude\":
+        -118.155721\r\n        },\r\n        \"street\": \"1020 El Centro St.\",\r\n
+        \       \"city\": \"South Pasadena\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"91030\",\r\n        \"zip4\": \"3118\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/South+Pasadena/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/91030/search.aspx\",\r\n
+        \       \"html\": \"1020 El Centro St.<br />South Pasadena, CA 91030-3118\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Los Angeles\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Los+Angeles/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"numberTotalSchools\": 5,\r\n      \"numberPrimarySchools\": 3,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 1,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 14,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 98.36,\r\n          \"rankScore\":
+        0.9732913\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        22,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        97.44,\r\n          \"rankScore\": 0.9623508\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 4779,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 351,\r\n          \"numberOfTeachers\":
+        199.5,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        16.7,\r\n          \"numberOfTeachersElementary\": 116.0,\r\n          \"numberOfTeachersSecondary\":
+        66.8,\r\n          \"numberOfAids\": 30.3,\r\n          \"numberOfCoordsSupervisors\":
+        4.0,\r\n          \"numberOfGuidanceElem\": 3.7,\r\n          \"numberOfGuidanceSecondary\":
+        5.4,\r\n          \"numberOfGuidanceTotal\": 1.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        4.0,\r\n          \"numberOfLEASupportStaff\": 18.0,\r\n          \"numberOfSchoolAdministrators\":
+        11.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 21.7,\r\n          \"numberOfStudentSupportStaff\":
+        13.1,\r\n          \"numberOfOtherSupportStaff\": 51.2\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0610740\",\r\n      \"districtName\":
+        \"Del Mar Union Elementary\",\r\n      \"phone\": \"(858) 755-9301\",\r\n
+        \     \"url\": \"https://www.schooldigger.com/go/CA/district/10740/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        32.9228,\r\n          \"longitude\": -117.2296\r\n        },\r\n        \"street\":
+        \"11232 El Camino Real\",\r\n        \"city\": \"San Diego\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"92130\",\r\n
+        \       \"zip4\": \"2657\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/San+Diego/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/92130/search.aspx\",\r\n
+        \       \"html\": \"11232 El Camino Real<br />San Diego, CA 92130-2657\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"San Diego\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/San+Diego/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"6\",\r\n
+        \     \"numberTotalSchools\": 8,\r\n      \"numberPrimarySchools\": 8,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 15,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 98.25,\r\n          \"rankScore\":
+        0.9715868\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        9,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        98.95,\r\n          \"rankScore\": 0.9800158\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 4413,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 428,\r\n          \"numberOfTeachers\":
+        195.1,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        24.7,\r\n          \"numberOfTeachersElementary\": 170.3,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 75.6,\r\n          \"numberOfCoordsSupervisors\":
+        8.0,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        2.0,\r\n          \"numberOfLEASupportStaff\": 7.0,\r\n          \"numberOfSchoolAdministrators\":
+        9.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 18.0,\r\n          \"numberOfStudentSupportStaff\":
+        15.8,\r\n          \"numberOfOtherSupportStaff\": 53.4\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0620310\",\r\n      \"districtName\":
+        \"Lafayette Elementary\",\r\n      \"phone\": \"(925) 927-3500\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/20310/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.887345,\r\n          \"longitude\":
+        -122.11507\r\n        },\r\n        \"street\": \"3477 Sch St.\",\r\n        \"city\":
+        \"Lafayette\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\": \"California\",\r\n
+        \       \"zip\": \"94549\",\r\n        \"zip4\": \"1029\",\r\n        \"cityURL\":
+        \"https://www.schooldigger.com/go/CA/city/Lafayette/search.aspx\",\r\n        \"zipURL\":
+        \"https://www.schooldigger.com/go/CA/zip/94549/search.aspx\",\r\n        \"html\":
+        \"3477 Sch St.<br />Lafayette, CA 94549-1029\"\r\n      },\r\n      \"locationIsWithinBoundary\":
+        null,\r\n      \"hasBoundary\": true,\r\n      \"county\": {\r\n        \"countyName\":
+        \"Contra Costa\",\r\n        \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Contra+Costa/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 5,\r\n      \"numberPrimarySchools\": 4,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 16,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 98.13,\r\n          \"rankScore\":
+        0.9707456\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        14,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        98.37,\r\n          \"rankScore\": 0.9750927\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 3615,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 87,\r\n          \"numberOfTeachers\":
+        149.4,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        17.5,\r\n          \"numberOfTeachersElementary\": 131.9,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 81.2,\r\n          \"numberOfCoordsSupervisors\":
+        22.2,\r\n          \"numberOfGuidanceElem\": 1.6,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        1.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        2.0,\r\n          \"numberOfLEASupportStaff\": 9.7,\r\n          \"numberOfSchoolAdministrators\":
+        7.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 9.8,\r\n          \"numberOfStudentSupportStaff\":
+        6.9,\r\n          \"numberOfOtherSupportStaff\": 26.0\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0624870\",\r\n      \"districtName\":
+        \"Mill Valley Elementary\",\r\n      \"phone\": \"(415) 389-7700\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/24870/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.8967,\r\n          \"longitude\":
+        -122.5297\r\n        },\r\n        \"street\": \"411 Sycamore Ave.\",\r\n
+        \       \"city\": \"Mill Valley\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94941\",\r\n        \"zip4\": \"2231\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Mill+Valley/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94941/search.aspx\",\r\n
+        \       \"html\": \"411 Sycamore Ave.<br />Mill Valley, CA 94941-2231\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Marin\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Marin/search.aspx\"\r\n      },\r\n
+        \     \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n      \"numberTotalSchools\":
+        6,\r\n      \"numberPrimarySchools\": 5,\r\n      \"numberMiddleSchools\":
+        1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 17,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 98.01,\r\n          \"rankScore\":
+        0.9707371\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        23,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        97.33,\r\n          \"rankScore\": 0.9565462\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 3128,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 80,\r\n          \"numberOfTeachers\":
+        150.5,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        16.0,\r\n          \"numberOfTeachersElementary\": 134.5,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 56.3,\r\n          \"numberOfCoordsSupervisors\":
+        3.4,\r\n          \"numberOfGuidanceElem\": 4.9,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 9.0,\r\n          \"numberOfSchoolAdministrators\":
+        7.4,\r\n          \"numberOfSchoolAdminSupportStaff\": 10.1,\r\n          \"numberOfStudentSupportStaff\":
+        10.0,\r\n          \"numberOfOtherSupportStaff\": 27.7\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0636990\",\r\n      \"districtName\":
+        \"Solana Beach Elementary\",\r\n      \"phone\": \"(858) 794-7100\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/36990/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 32.9893,\r\n          \"longitude\":
+        -117.2685\r\n        },\r\n        \"street\": \"309 N. Rios Ave.\",\r\n        \"city\":
+        \"Solana Beach\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"92075\",\r\n        \"zip4\": \"1241\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Solana+Beach/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/92075/search.aspx\",\r\n
+        \       \"html\": \"309 N. Rios Ave.<br />Solana Beach, CA 92075-1241\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"San Diego\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/San+Diego/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"6\",\r\n
+        \     \"numberTotalSchools\": 7,\r\n      \"numberPrimarySchools\": 7,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 18,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 97.9,\r\n          \"rankScore\":
+        0.9696220\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        16,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        98.14,\r\n          \"rankScore\": 0.9709241\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 3012,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 388,\r\n          \"numberOfTeachers\":
+        136.1,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        19.9,\r\n          \"numberOfTeachersElementary\": 116.2,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 67.1,\r\n          \"numberOfCoordsSupervisors\":
+        48.2,\r\n          \"numberOfGuidanceElem\": 1.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        2.0,\r\n          \"numberOfLEASupportStaff\": 16.0,\r\n          \"numberOfSchoolAdministrators\":
+        6.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 13.2,\r\n          \"numberOfStudentSupportStaff\":
+        11.8,\r\n          \"numberOfOtherSupportStaff\": 42.5\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0622800\",\r\n      \"districtName\":
+        \"Los Gatos-Saratoga Joint Union High\",\r\n      \"phone\": \"(408) 354-5980\",\r\n
+        \     \"url\": \"https://www.schooldigger.com/go/CA/district/22800/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        37.24046,\r\n          \"longitude\": -121.974921\r\n        },\r\n        \"street\":
+        \"17421 Farley Rd. W.\",\r\n        \"city\": \"Los Gatos\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"95030\",\r\n
+        \       \"zip4\": \"3308\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Los+Gatos/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/95030/search.aspx\",\r\n
+        \       \"html\": \"17421 Farley Rd. W.<br />Los Gatos, CA 95030-3308\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Santa Clara\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Santa+Clara/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"9\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"numberTotalSchools\": 2,\r\n      \"numberPrimarySchools\": 0,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 2,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 19,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 97.78,\r\n          \"rankScore\":
+        0.9695091\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        24,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        97.21,\r\n          \"rankScore\": 0.9559623\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 3368,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 48,\r\n          \"numberOfTeachers\":
+        161.8,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        0.0,\r\n          \"numberOfTeachersElementary\": 0.1,\r\n          \"numberOfTeachersSecondary\":
+        159.1,\r\n          \"numberOfAids\": 18.4,\r\n          \"numberOfCoordsSupervisors\":
+        4.3,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        9.0,\r\n          \"numberOfGuidanceTotal\": 1.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        3.0,\r\n          \"numberOfLEASupportStaff\": 10.0,\r\n          \"numberOfSchoolAdministrators\":
+        9.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 29.0,\r\n          \"numberOfStudentSupportStaff\":
+        4.5,\r\n          \"numberOfOtherSupportStaff\": 42.0\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0600025\",\r\n      \"districtName\":
+        \"Manhattan Beach Unified\",\r\n      \"phone\": \"(310) 318-7345\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/00025/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 33.876653,\r\n          \"longitude\":
+        -118.388569\r\n        },\r\n        \"street\": \"325 S. Peck Ave.\",\r\n
+        \       \"city\": \"Manhattan Beach\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"90266\",\r\n        \"zip4\": \"2478\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Manhattan+Beach/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/90266/search.aspx\",\r\n
+        \       \"html\": \"325 S. Peck Ave.<br />Manhattan Beach, CA 90266-2478\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Los Angeles\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Los+Angeles/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"numberTotalSchools\": 7,\r\n      \"numberPrimarySchools\": 5,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 1,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 20,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 97.66,\r\n          \"rankScore\":
+        0.9678686\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        18,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        97.91,\r\n          \"rankScore\": 0.9680699\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 6776,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 127,\r\n          \"numberOfTeachers\":
+        264.0,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        18.7,\r\n          \"numberOfTeachersElementary\": 149.3,\r\n          \"numberOfTeachersSecondary\":
+        94.4,\r\n          \"numberOfAids\": 108.7,\r\n          \"numberOfCoordsSupervisors\":
+        15.5,\r\n          \"numberOfGuidanceElem\": 4.7,\r\n          \"numberOfGuidanceSecondary\":
+        9.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        2.0,\r\n          \"numberOfLEASupportStaff\": 16.8,\r\n          \"numberOfSchoolAdministrators\":
+        13.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 26.7,\r\n          \"numberOfStudentSupportStaff\":
+        13.0,\r\n          \"numberOfOtherSupportStaff\": 94.2\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0624570\",\r\n      \"districtName\":
+        \"Menlo Park City Elementary\",\r\n      \"phone\": \"(650) 321-7140\",\r\n
+        \     \"url\": \"https://www.schooldigger.com/go/CA/district/24570/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        37.46406,\r\n          \"longitude\": -122.186268\r\n        },\r\n        \"street\":
+        \"181 Encinal Ave.\",\r\n        \"city\": \"Atherton\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"94027\",\r\n
+        \       \"zip4\": \"3102\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Atherton/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94027/search.aspx\",\r\n
+        \       \"html\": \"181 Encinal Ave.<br />Atherton, CA 94027-3102\"\r\n      },\r\n
+        \     \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\": true,\r\n
+        \     \"county\": {\r\n        \"countyName\": \"San Mateo\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/San+Mateo/search.aspx\"\r\n      },\r\n
+        \     \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n      \"numberTotalSchools\":
+        4,\r\n      \"numberPrimarySchools\": 3,\r\n      \"numberMiddleSchools\":
+        1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 21,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 97.55,\r\n          \"rankScore\":
+        0.9663712\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        17,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        98.03,\r\n          \"rankScore\": 0.9691478\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 2999,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 254,\r\n          \"numberOfTeachers\":
+        162.1,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        18.6,\r\n          \"numberOfTeachersElementary\": 143.4,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 39.8,\r\n          \"numberOfCoordsSupervisors\":
+        5.8,\r\n          \"numberOfGuidanceElem\": 3.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        5.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        2.0,\r\n          \"numberOfLEASupportStaff\": 8.5,\r\n          \"numberOfSchoolAdministrators\":
+        7.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 8.8,\r\n          \"numberOfStudentSupportStaff\":
+        14.6,\r\n          \"numberOfOtherSupportStaff\": 50.3\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0610290\",\r\n      \"districtName\":
+        \"Cupertino Union\",\r\n      \"phone\": \"(408) 252-3000\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/10290/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.329288,\r\n          \"longitude\":
+        -122.027094\r\n        },\r\n        \"street\": \"1309 S. Mary Ave.\",\r\n
+        \       \"city\": \"Sunnyvale\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94087\",\r\n        \"zip4\": \"3050\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Sunnyvale/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94087/search.aspx\",\r\n
+        \       \"html\": \"1309 S. Mary Ave.<br />Sunnyvale, CA 94087-3050\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Santa Clara\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Santa+Clara/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 25,\r\n      \"numberPrimarySchools\": 20,\r\n
+        \     \"numberMiddleSchools\": 5,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 22,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 97.43,\r\n          \"rankScore\":
+        0.9637898\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        20,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        97.68,\r\n          \"rankScore\": 0.9646753\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 18598,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 2248,\r\n          \"numberOfTeachers\":
+        783.4,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        90.9,\r\n          \"numberOfTeachersElementary\": 680.1,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 266.2,\r\n          \"numberOfCoordsSupervisors\":
+        33.4,\r\n          \"numberOfGuidanceElem\": 9.8,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 2.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        5.0,\r\n          \"numberOfLEASupportStaff\": 24.5,\r\n          \"numberOfSchoolAdministrators\":
+        39.5,\r\n          \"numberOfSchoolAdminSupportStaff\": 109.1,\r\n          \"numberOfStudentSupportStaff\":
+        63.9,\r\n          \"numberOfOtherSupportStaff\": 265.4\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0600021\",\r\n      \"districtName\":
+        \"Sunol Glen Unified\",\r\n      \"phone\": \"(925) 862-2026\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/00021/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.59261,\r\n          \"longitude\":
+        -121.8845\r\n        },\r\n        \"street\": \"11601 Main St.\",\r\n        \"city\":
+        \"Sunol\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\": \"California\",\r\n
+        \       \"zip\": \"94586\",\r\n        \"zip4\": \"9519\",\r\n        \"cityURL\":
+        \"https://www.schooldigger.com/go/CA/city/Sunol/search.aspx\",\r\n        \"zipURL\":
+        \"https://www.schooldigger.com/go/CA/zip/94586/search.aspx\",\r\n        \"html\":
+        \"11601 Main St.<br />Sunol, CA 94586-9519\"\r\n      },\r\n      \"locationIsWithinBoundary\":
+        null,\r\n      \"hasBoundary\": true,\r\n      \"county\": {\r\n        \"countyName\":
+        \"Alameda\",\r\n        \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Alameda/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 1,\r\n      \"numberPrimarySchools\": 1,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 23,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 97.31,\r\n          \"rankScore\":
+        0.9622988\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        53,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        93.84,\r\n          \"rankScore\": 0.9157715\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 278,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 16,\r\n          \"numberOfTeachers\":
+        13.5,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        1.5,\r\n          \"numberOfTeachersElementary\": 12.0,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 1.4,\r\n          \"numberOfCoordsSupervisors\":
+        0.0,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 0.0,\r\n          \"numberOfSchoolAdministrators\":
+        0.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 3.0,\r\n          \"numberOfStudentSupportStaff\":
+        0.0,\r\n          \"numberOfOtherSupportStaff\": 2.7\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0633660\",\r\n      \"districtName\":
+        \"Ross Elementary\",\r\n      \"phone\": \"(415) 457-2705\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/33660/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.961293,\r\n          \"longitude\":
+        -122.558082\r\n        },\r\n        \"street\": \"9 Lagunitas Rd.\",\r\n
+        \       \"city\": \"Ross\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94957\",\r\n        \"zip4\": \"1058\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Ross/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94957/search.aspx\",\r\n
+        \       \"html\": \"9 Lagunitas Rd.<br />Ross, CA 94957-1058\"\r\n      },\r\n
+        \     \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\": true,\r\n
+        \     \"county\": {\r\n        \"countyName\": \"Marin\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Marin/search.aspx\"\r\n      },\r\n
+        \     \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n      \"numberTotalSchools\":
+        1,\r\n      \"numberPrimarySchools\": 1,\r\n      \"numberMiddleSchools\":
+        0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 24,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 97.2,\r\n          \"rankScore\":
+        0.9585947\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        7,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        99.19,\r\n          \"rankScore\": 0.9809467\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 383,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": null,\r\n          \"numberOfTeachers\":
+        26.4,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        2.0,\r\n          \"numberOfTeachersElementary\": 24.4,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 8.7,\r\n          \"numberOfCoordsSupervisors\":
+        1.6,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 1.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 0.0,\r\n          \"numberOfSchoolAdministrators\":
+        1.9,\r\n          \"numberOfSchoolAdminSupportStaff\": 3.7,\r\n          \"numberOfStudentSupportStaff\":
+        1.0,\r\n          \"numberOfOtherSupportStaff\": 6.5\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0632160\",\r\n      \"districtName\":
+        \"Reed Union Elementary\",\r\n      \"phone\": \"(415) 381-1112\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/32160/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.90286,\r\n          \"longitude\":
+        -122.497744\r\n        },\r\n        \"street\": \"277-A Karen Way\",\r\n
+        \       \"city\": \"Tiburon\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94920\",\r\n        \"zip4\": \"\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Tiburon/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94920/search.aspx\",\r\n
+        \       \"html\": \"277-A Karen Way<br />Tiburon, CA 94920\"\r\n      },\r\n
+        \     \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\": true,\r\n
+        \     \"county\": {\r\n        \"countyName\": \"Marin\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Marin/search.aspx\"\r\n      },\r\n
+        \     \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n      \"numberTotalSchools\":
+        3,\r\n      \"numberPrimarySchools\": 2,\r\n      \"numberMiddleSchools\":
+        1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 25,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 97.08,\r\n          \"rankScore\":
+        0.9579850\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        21,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        97.56,\r\n          \"rankScore\": 0.9646560\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 1530,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 49,\r\n          \"numberOfTeachers\":
+        74.1,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        6.0,\r\n          \"numberOfTeachersElementary\": 66.1,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 21.9,\r\n          \"numberOfCoordsSupervisors\":
+        3.2,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        2.0,\r\n          \"numberOfLEASupportStaff\": 5.0,\r\n          \"numberOfSchoolAdministrators\":
+        3.9,\r\n          \"numberOfSchoolAdminSupportStaff\": 6.0,\r\n          \"numberOfStudentSupportStaff\":
+        4.3,\r\n          \"numberOfOtherSupportStaff\": 17.6\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0620370\",\r\n      \"districtName\":
+        \"Laguna Beach Unified\",\r\n      \"phone\": \"(949) 497-7700\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/20370/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 33.542605,\r\n          \"longitude\":
+        -117.77789\r\n        },\r\n        \"street\": \"550 Blumont St.\",\r\n        \"city\":
+        \"Laguna Beach\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"92651\",\r\n        \"zip4\": \"2356\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Laguna+Beach/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/92651/search.aspx\",\r\n
+        \       \"html\": \"550 Blumont St.<br />Laguna Beach, CA 92651-2356\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Orange\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Orange/search.aspx\"\r\n      },\r\n
+        \     \"lowGrade\": \"K\",\r\n      \"highGrade\": \"12\",\r\n      \"numberTotalSchools\":
+        4,\r\n      \"numberPrimarySchools\": 2,\r\n      \"numberMiddleSchools\":
+        1,\r\n      \"numberHighSchools\": 1,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 26,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 96.96,\r\n          \"rankScore\":
+        0.9567771\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        26,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        96.98,\r\n          \"rankScore\": 0.9537380\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 3025,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 132,\r\n          \"numberOfTeachers\":
+        139.0,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        7.5,\r\n          \"numberOfTeachersElementary\": 81.5,\r\n          \"numberOfTeachersSecondary\":
+        49.9,\r\n          \"numberOfAids\": 63.0,\r\n          \"numberOfCoordsSupervisors\":
+        15.5,\r\n          \"numberOfGuidanceElem\": 1.0,\r\n          \"numberOfGuidanceSecondary\":
+        3.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 10.0,\r\n          \"numberOfSchoolAdministrators\":
+        6.4,\r\n          \"numberOfSchoolAdminSupportStaff\": 17.0,\r\n          \"numberOfStudentSupportStaff\":
+        8.0,\r\n          \"numberOfOtherSupportStaff\": 68.0\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0625740\",\r\n      \"districtName\":
+        \"Moraga Elementary\",\r\n      \"phone\": \"(925) 376-5943\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/25740/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.83468,\r\n          \"longitude\":
+        -122.131517\r\n        },\r\n        \"street\": \"1540 Sch St.\",\r\n        \"city\":
+        \"Moraga\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\": \"California\",\r\n
+        \       \"zip\": \"94556\",\r\n        \"zip4\": \"0158\",\r\n        \"cityURL\":
+        \"https://www.schooldigger.com/go/CA/city/Moraga/search.aspx\",\r\n        \"zipURL\":
+        \"https://www.schooldigger.com/go/CA/zip/94556/search.aspx\",\r\n        \"html\":
+        \"1540 Sch St.<br />Moraga, CA 94556-0158\"\r\n      },\r\n      \"locationIsWithinBoundary\":
+        null,\r\n      \"hasBoundary\": true,\r\n      \"county\": {\r\n        \"countyName\":
+        \"Contra Costa\",\r\n        \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Contra+Costa/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 4,\r\n      \"numberPrimarySchools\": 3,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 27,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 96.85,\r\n          \"rankScore\":
+        0.9558559\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        12,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        98.61,\r\n          \"rankScore\": 0.9762821\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 1898,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 44,\r\n          \"numberOfTeachers\":
+        85.8,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        10.0,\r\n          \"numberOfTeachersElementary\": 75.8,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 25.4,\r\n          \"numberOfCoordsSupervisors\":
+        4.9,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 5.2,\r\n          \"numberOfSchoolAdministrators\":
+        5.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 6.5,\r\n          \"numberOfStudentSupportStaff\":
+        2.0,\r\n          \"numberOfOtherSupportStaff\": 21.0\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0622590\",\r\n      \"districtName\":
+        \"Los Alamitos Unified\",\r\n      \"phone\": \"(562) 799-4700\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/22590/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 33.81604,\r\n          \"longitude\":
+        -118.063703\r\n        },\r\n        \"street\": \"10293 Bloomfield St.\",\r\n
+        \       \"city\": \"Los Alamitos\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"90720\",\r\n        \"zip4\": \"2264\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Los+Alamitos/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/90720/search.aspx\",\r\n
+        \       \"html\": \"10293 Bloomfield St.<br />Los Alamitos, CA 90720-2264\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Orange\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Orange/search.aspx\"\r\n      },\r\n
+        \     \"lowGrade\": \"K\",\r\n      \"highGrade\": \"12\",\r\n      \"numberTotalSchools\":
+        9,\r\n      \"numberPrimarySchools\": 6,\r\n      \"numberMiddleSchools\":
+        2,\r\n      \"numberHighSchools\": 1,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 28,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 96.73,\r\n          \"rankScore\":
+        0.9533073\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        27,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        96.86,\r\n          \"rankScore\": 0.9530883\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 9904,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 214,\r\n          \"numberOfTeachers\":
+        377.7,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        34.3,\r\n          \"numberOfTeachersElementary\": 222.6,\r\n          \"numberOfTeachersSecondary\":
+        120.4,\r\n          \"numberOfAids\": 95.9,\r\n          \"numberOfCoordsSupervisors\":
+        22.2,\r\n          \"numberOfGuidanceElem\": 2.0,\r\n          \"numberOfGuidanceSecondary\":
+        6.0,\r\n          \"numberOfGuidanceTotal\": 1.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        3.0,\r\n          \"numberOfLEASupportStaff\": 26.8,\r\n          \"numberOfSchoolAdministrators\":
+        17.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 31.9,\r\n          \"numberOfStudentSupportStaff\":
+        24.2,\r\n          \"numberOfOtherSupportStaff\": 109.5\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0603720\",\r\n      \"districtName\":
+        \"Ballard Elementary\",\r\n      \"phone\": \"(805) 688-4812\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/03720/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 34.639323,\r\n          \"longitude\":
+        -120.11378\r\n        },\r\n        \"street\": \"2425 Sch St.\",\r\n        \"city\":
+        \"Solvang\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\": \"California\",\r\n
+        \       \"zip\": \"93463\",\r\n        \"zip4\": \"9709\",\r\n        \"cityURL\":
+        \"https://www.schooldigger.com/go/CA/city/Solvang/search.aspx\",\r\n        \"zipURL\":
+        \"https://www.schooldigger.com/go/CA/zip/93463/search.aspx\",\r\n        \"html\":
+        \"2425 Sch St.<br />Solvang, CA 93463-9709\"\r\n      },\r\n      \"locationIsWithinBoundary\":
+        null,\r\n      \"hasBoundary\": true,\r\n      \"county\": {\r\n        \"countyName\":
+        \"Santa Barbara\",\r\n        \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Santa+Barbara/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"6\",\r\n
+        \     \"numberTotalSchools\": 1,\r\n      \"numberPrimarySchools\": 1,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 29,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 96.61,\r\n          \"rankScore\":
+        0.9507241\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        39,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        95.47,\r\n          \"rankScore\": 0.9332396\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 129,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 3,\r\n          \"numberOfTeachers\":
+        7.0,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        1.0,\r\n          \"numberOfTeachersElementary\": 6.0,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 2.8,\r\n          \"numberOfCoordsSupervisors\":
+        0.5,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 0.0,\r\n          \"numberOfSchoolAdministrators\":
+        0.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 1.0,\r\n          \"numberOfStudentSupportStaff\":
+        0.0,\r\n          \"numberOfOtherSupportStaff\": 1.9\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0601650\",\r\n      \"districtName\":
+        \"Acalanes Union High\",\r\n      \"phone\": \"(925) 280-3900\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/01650/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.905787,\r\n          \"longitude\":
+        -122.09917\r\n        },\r\n        \"street\": \"1212 Pleasant Hill Rd.\",\r\n
+        \       \"city\": \"Lafayette\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94549\",\r\n        \"zip4\": \"2623\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Lafayette/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94549/search.aspx\",\r\n
+        \       \"html\": \"1212 Pleasant Hill Rd.<br />Lafayette, CA 94549-2623\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Contra Costa\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Contra+Costa/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"9\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"numberTotalSchools\": 5,\r\n      \"numberPrimarySchools\": 0,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 5,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 30,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 96.5,\r\n          \"rankScore\":
+        0.9506197\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        34,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        96.05,\r\n          \"rankScore\": 0.9434685\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 5530,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 98,\r\n          \"numberOfTeachers\":
+        267.6,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        0.0,\r\n          \"numberOfTeachersElementary\": 0.0,\r\n          \"numberOfTeachersSecondary\":
+        266.5,\r\n          \"numberOfAids\": 25.9,\r\n          \"numberOfCoordsSupervisors\":
+        2.0,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        17.6,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        4.0,\r\n          \"numberOfLEASupportStaff\": 14.0,\r\n          \"numberOfSchoolAdministrators\":
+        9.3,\r\n          \"numberOfSchoolAdminSupportStaff\": 24.0,\r\n          \"numberOfStudentSupportStaff\":
+        13.6,\r\n          \"numberOfOtherSupportStaff\": 63.0\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0634290\",\r\n      \"districtName\":
+        \"San Carlos Elementary\",\r\n      \"phone\": \"(650) 590-5960\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/34290/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.50127,\r\n          \"longitude\":
+        -122.247601\r\n        },\r\n        \"street\": \"1200 Industrial Rd. Unit
+        9\",\r\n        \"city\": \"San Carlos\",\r\n        \"state\": \"CA\",\r\n
+        \       \"stateFull\": \"California\",\r\n        \"zip\": \"94070\",\r\n
+        \       \"zip4\": \"4129\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/San+Carlos/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94070/search.aspx\",\r\n
+        \       \"html\": \"1200 Industrial Rd. Unit 9<br />San Carlos, CA 94070-4129\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"San Mateo\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/San+Mateo/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 8,\r\n      \"numberPrimarySchools\": 6,\r\n
+        \     \"numberMiddleSchools\": 2,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 31,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 96.38,\r\n          \"rankScore\":
+        0.9460188\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        41,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        95.24,\r\n          \"rankScore\": 0.9326100\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 3516,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 319,\r\n          \"numberOfTeachers\":
+        166.6,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        21.9,\r\n          \"numberOfTeachersElementary\": 144.6,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 45.6,\r\n          \"numberOfCoordsSupervisors\":
+        6.3,\r\n          \"numberOfGuidanceElem\": 6.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        2.0,\r\n          \"numberOfLEASupportStaff\": 9.0,\r\n          \"numberOfSchoolAdministrators\":
+        10.4,\r\n          \"numberOfSchoolAdminSupportStaff\": 10.3,\r\n          \"numberOfStudentSupportStaff\":
+        10.7,\r\n          \"numberOfOtherSupportStaff\": 73.5\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0629610\",\r\n      \"districtName\":
+        \"Palo Alto Unified\",\r\n      \"phone\": \"(650) 329-3700\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/29610/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.43359,\r\n          \"longitude\":
+        -122.154966\r\n        },\r\n        \"street\": \"25 Churchill Ave\",\r\n
+        \       \"city\": \"Palo Alto\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94306\",\r\n        \"zip4\": \"1005\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Palo+Alto/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94306/search.aspx\",\r\n
+        \       \"html\": \"25 Churchill Ave<br />Palo Alto, CA 94306-1005\"\r\n      },\r\n
+        \     \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\": true,\r\n
+        \     \"county\": {\r\n        \"countyName\": \"Santa Clara\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Santa+Clara/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"numberTotalSchools\": 19,\r\n      \"numberPrimarySchools\": 13,\r\n
+        \     \"numberMiddleSchools\": 3,\r\n      \"numberHighSchools\": 2,\r\n      \"numberAlternativeSchools\":
+        1,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 32,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 96.26,\r\n          \"rankScore\":
+        0.9432694\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        31,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        96.4,\r\n          \"rankScore\": 0.9453865\r\n        }\r\n      ],\r\n      \"districtYearlyDetails\":
+        [\r\n        {\r\n          \"year\": 2017,\r\n          \"numberOfStudents\":
+        12287,\r\n          \"numberOfSpecialEdStudents\": null,\r\n          \"numberOfEnglishLanguageLearnerStudents\":
+        1420,\r\n          \"numberOfTeachers\": 723.5,\r\n          \"numberOfTeachersPK\":
+        0.0,\r\n          \"numberOfTeachersK\": 43.3,\r\n          \"numberOfTeachersElementary\":
+        434.6,\r\n          \"numberOfTeachersSecondary\": 244.8,\r\n          \"numberOfAids\":
+        244.9,\r\n          \"numberOfCoordsSupervisors\": 107.1,\r\n          \"numberOfGuidanceElem\":
+        9.4,\r\n          \"numberOfGuidanceSecondary\": 15.0,\r\n          \"numberOfGuidanceTotal\":
+        5.0,\r\n          \"numberOfLibrarians\": 0.0,\r\n          \"numberOfLibraryStaff\":
+        0.0,\r\n          \"numberOfLEAAdministrators\": 10.5,\r\n          \"numberOfLEASupportStaff\":
+        51.3,\r\n          \"numberOfSchoolAdministrators\": 34.9,\r\n          \"numberOfSchoolAdminSupportStaff\":
+        60.8,\r\n          \"numberOfStudentSupportStaff\": 20.2,\r\n          \"numberOfOtherSupportStaff\":
+        233.4\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"districtID\":
+        \"0640320\",\r\n      \"districtName\": \"Union Elementary\",\r\n      \"phone\":
+        \"(408) 377-8010\",\r\n      \"url\": \"https://www.schooldigger.com/go/CA/district/40320/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        37.243863,\r\n          \"longitude\": -121.931722\r\n        },\r\n        \"street\":
+        \"5175 Union Ave.\",\r\n        \"city\": \"San Jose\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"95124\",\r\n
+        \       \"zip4\": \"5434\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/San+Jose/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/95124/search.aspx\",\r\n
+        \       \"html\": \"5175 Union Ave.<br />San Jose, CA 95124-5434\"\r\n      },\r\n
+        \     \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\": true,\r\n
+        \     \"county\": {\r\n        \"countyName\": \"Santa Clara\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Santa+Clara/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 8,\r\n      \"numberPrimarySchools\": 6,\r\n
+        \     \"numberMiddleSchools\": 2,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 33,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 96.14,\r\n          \"rankScore\":
+        0.9419842\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        30,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        96.52,\r\n          \"rankScore\": 0.9481634\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 5751,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 711,\r\n          \"numberOfTeachers\":
+        240.6,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        29.5,\r\n          \"numberOfTeachersElementary\": 211.1,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 35.8,\r\n          \"numberOfCoordsSupervisors\":
+        17.0,\r\n          \"numberOfGuidanceElem\": 2.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        3.0,\r\n          \"numberOfLEASupportStaff\": 7.0,\r\n          \"numberOfSchoolAdministrators\":
+        11.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 14.6,\r\n          \"numberOfStudentSupportStaff\":
+        13.2,\r\n          \"numberOfOtherSupportStaff\": 60.6\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0617040\",\r\n      \"districtName\":
+        \"Hermosa Beach City Elementary\",\r\n      \"phone\": \"(310) 937-5877\",\r\n
+        \     \"url\": \"https://www.schooldigger.com/go/CA/district/17040/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        33.857185,\r\n          \"longitude\": -118.396038\r\n        },\r\n        \"street\":
+        \"425 Valley Dr.\",\r\n        \"city\": \"Hermosa Beach\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"90254\",\r\n
+        \       \"zip4\": \"2921\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Hermosa+Beach/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/90254/search.aspx\",\r\n
+        \       \"html\": \"425 Valley Dr.<br />Hermosa Beach, CA 90254-2921\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Los Angeles\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Los+Angeles/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 2,\r\n      \"numberPrimarySchools\": 2,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 34,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 96.03,\r\n          \"rankScore\":
+        0.9417310\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        52,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        93.96,\r\n          \"rankScore\": 0.9163994\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 1378,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 26,\r\n          \"numberOfTeachers\":
+        57.5,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        6.0,\r\n          \"numberOfTeachersElementary\": 51.5,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 16.1,\r\n          \"numberOfCoordsSupervisors\":
+        2.0,\r\n          \"numberOfGuidanceElem\": 1.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 3.0,\r\n          \"numberOfSchoolAdministrators\":
+        3.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 3.5,\r\n          \"numberOfStudentSupportStaff\":
+        2.0,\r\n          \"numberOfOtherSupportStaff\": 19.4\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0618660\",\r\n      \"districtName\":
+        \"Jacoby Creek Elementary\",\r\n      \"phone\": \"(707) 822-4896\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/18660/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 40.846916,\r\n          \"longitude\":
+        -124.067831\r\n        },\r\n        \"street\": \"1617 Old Arcata Rd.\",\r\n
+        \       \"city\": \"Bayside\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"95524\",\r\n        \"zip4\": \"9301\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Bayside/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/95524/search.aspx\",\r\n
+        \       \"html\": \"1617 Old Arcata Rd.<br />Bayside, CA 95524-9301\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Humboldt\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Humboldt/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 1,\r\n      \"numberPrimarySchools\": 1,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 35,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 95.91,\r\n          \"rankScore\":
+        0.9398450\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        69,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        91.99,\r\n          \"rankScore\": 0.8918443\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 455,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 5,\r\n          \"numberOfTeachers\":
+        20.2,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        3.0,\r\n          \"numberOfTeachersElementary\": 17.2,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 8.2,\r\n          \"numberOfCoordsSupervisors\":
+        0.0,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        0.2,\r\n          \"numberOfLEASupportStaff\": 0.0,\r\n          \"numberOfSchoolAdministrators\":
+        1.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 2.0,\r\n          \"numberOfStudentSupportStaff\":
+        3.0,\r\n          \"numberOfOtherSupportStaff\": 6.4\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0614430\",\r\n      \"districtName\":
+        \"Fremont Union High\",\r\n      \"phone\": \"(408) 522-2200\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/14430/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.351,\r\n          \"longitude\":
+        -122.0358\r\n        },\r\n        \"street\": \"589 W. Fremont Ave.\",\r\n
+        \       \"city\": \"Sunnyvale\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94087\",\r\n        \"zip4\": \"2556\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Sunnyvale/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94087/search.aspx\",\r\n
+        \       \"html\": \"589 W. Fremont Ave.<br />Sunnyvale, CA 94087-2556\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Santa Clara\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Santa+Clara/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"9\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"numberTotalSchools\": 6,\r\n      \"numberPrimarySchools\": 0,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 6,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 36,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 95.79,\r\n          \"rankScore\":
+        0.9383242\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        38,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        95.59,\r\n          \"rankScore\": 0.9337951\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 10869,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 839,\r\n          \"numberOfTeachers\":
+        450.8,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        0.0,\r\n          \"numberOfTeachersElementary\": 0.0,\r\n          \"numberOfTeachersSecondary\":
+        448.6,\r\n          \"numberOfAids\": 101.1,\r\n          \"numberOfCoordsSupervisors\":
+        17.7,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        20.5,\r\n          \"numberOfGuidanceTotal\": 0.5,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        8.0,\r\n          \"numberOfLEASupportStaff\": 40.9,\r\n          \"numberOfSchoolAdministrators\":
+        33.6,\r\n          \"numberOfSchoolAdminSupportStaff\": 61.4,\r\n          \"numberOfStudentSupportStaff\":
+        23.1,\r\n          \"numberOfOtherSupportStaff\": 114.1\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0620910\",\r\n      \"districtName\":
+        \"Larkspur-Corte Madera\",\r\n      \"phone\": \"(415) 927-6960\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/20910/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.9388,\r\n          \"longitude\":
+        -122.531561\r\n        },\r\n        \"street\": \"230 Doherty Dr.\",\r\n
+        \       \"city\": \"Larkspur\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94939\",\r\n        \"zip4\": \"1532\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Larkspur/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94939/search.aspx\",\r\n
+        \       \"html\": \"230 Doherty Dr.<br />Larkspur, CA 94939-1532\"\r\n      },\r\n
+        \     \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\": true,\r\n
+        \     \"county\": {\r\n        \"countyName\": \"Marin\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Marin/search.aspx\"\r\n      },\r\n
+        \     \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n      \"numberTotalSchools\":
+        3,\r\n      \"numberPrimarySchools\": 2,\r\n      \"numberMiddleSchools\":
+        1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 37,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 95.68,\r\n          \"rankScore\":
+        0.9347849\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        40,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        95.35,\r\n          \"rankScore\": 0.9331217\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 1523,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 53,\r\n          \"numberOfTeachers\":
+        72.7,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        7.7,\r\n          \"numberOfTeachersElementary\": 64.9,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 9.0,\r\n          \"numberOfCoordsSupervisors\":
+        1.6,\r\n          \"numberOfGuidanceElem\": 2.9,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.8,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        2.0,\r\n          \"numberOfLEASupportStaff\": 2.4,\r\n          \"numberOfSchoolAdministrators\":
+        3.9,\r\n          \"numberOfSchoolAdminSupportStaff\": 6.2,\r\n          \"numberOfStudentSupportStaff\":
+        3.6,\r\n          \"numberOfOtherSupportStaff\": 23.7\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0616560\",\r\n      \"districtName\":
+        \"Happy Valley Elementary\",\r\n      \"phone\": \"(831) 429-1456\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/16560/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.024386,\r\n          \"longitude\":
+        -121.990352\r\n        },\r\n        \"street\": \"3125 Branciforte Dr.\",\r\n
+        \       \"city\": \"Santa Cruz\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"95065\",\r\n        \"zip4\": \"9775\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Santa+Cruz/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/95065/search.aspx\",\r\n
+        \       \"html\": \"3125 Branciforte Dr.<br />Santa Cruz, CA 95065-9775\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Santa Cruz\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Santa+Cruz/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"6\",\r\n
+        \     \"numberTotalSchools\": 1,\r\n      \"numberPrimarySchools\": 1,\r\n
+        \     \"numberMiddleSchools\": 0,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 38,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 95.56,\r\n          \"rankScore\":
+        0.9327092\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        49,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        94.31,\r\n          \"rankScore\": 0.9191848\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 125,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 5,\r\n          \"numberOfTeachers\":
+        6.4,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        1.0,\r\n          \"numberOfTeachersElementary\": 5.0,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 3.1,\r\n          \"numberOfCoordsSupervisors\":
+        0.4,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 0.0,\r\n          \"numberOfSchoolAdministrators\":
+        0.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 1.6,\r\n          \"numberOfStudentSupportStaff\":
+        0.1,\r\n          \"numberOfOtherSupportStaff\": 0.1\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0619380\",\r\n      \"districtName\":
+        \"Kentfield Elementary\",\r\n      \"phone\": \"(415) 458-5130\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/19380/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.9504,\r\n          \"longitude\":
+        -122.5496\r\n        },\r\n        \"street\": \"750 College Ave.\",\r\n        \"city\":
+        \"Kentfield\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\": \"California\",\r\n
+        \       \"zip\": \"94904\",\r\n        \"zip4\": \"1639\",\r\n        \"cityURL\":
+        \"https://www.schooldigger.com/go/CA/city/Kentfield/search.aspx\",\r\n        \"zipURL\":
+        \"https://www.schooldigger.com/go/CA/zip/94904/search.aspx\",\r\n        \"html\":
+        \"750 College Ave.<br />Kentfield, CA 94904-1639\"\r\n      },\r\n      \"locationIsWithinBoundary\":
+        null,\r\n      \"hasBoundary\": true,\r\n      \"county\": {\r\n        \"countyName\":
+        \"Marin\",\r\n        \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Marin/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 2,\r\n      \"numberPrimarySchools\": 1,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 39,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 95.44,\r\n          \"rankScore\":
+        0.9301911\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        35,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        95.93,\r\n          \"rankScore\": 0.9386532\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 1257,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 73,\r\n          \"numberOfTeachers\":
+        69.0,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        7.7,\r\n          \"numberOfTeachersElementary\": 61.2,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 19.5,\r\n          \"numberOfCoordsSupervisors\":
+        1.5,\r\n          \"numberOfGuidanceElem\": 2.8,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 4.0,\r\n          \"numberOfSchoolAdministrators\":
+        4.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 4.0,\r\n          \"numberOfStudentSupportStaff\":
+        1.8,\r\n          \"numberOfOtherSupportStaff\": 9.5\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0606480\",\r\n      \"districtName\":
+        \"Burlingame Elementary\",\r\n      \"phone\": \"(650) 259-3800\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/06480/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.59172,\r\n          \"longitude\":
+        -122.385791\r\n        },\r\n        \"street\": \"1825 Trousdale Dr.\",\r\n
+        \       \"city\": \"Burlingame\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94010\",\r\n        \"zip4\": \"4509\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Burlingame/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94010/search.aspx\",\r\n
+        \       \"html\": \"1825 Trousdale Dr.<br />Burlingame, CA 94010-4509\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"San Mateo\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/San+Mateo/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 7,\r\n      \"numberPrimarySchools\": 6,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 40,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 95.33,\r\n          \"rankScore\":
+        0.9297372\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        37,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        95.7,\r\n          \"rankScore\": 0.9355651\r\n        }\r\n      ],\r\n      \"districtYearlyDetails\":
+        [\r\n        {\r\n          \"year\": 2017,\r\n          \"numberOfStudents\":
+        3410,\r\n          \"numberOfSpecialEdStudents\": null,\r\n          \"numberOfEnglishLanguageLearnerStudents\":
+        618,\r\n          \"numberOfTeachers\": 151.6,\r\n          \"numberOfTeachersPK\":
+        0.0,\r\n          \"numberOfTeachersK\": 21.0,\r\n          \"numberOfTeachersElementary\":
+        130.5,\r\n          \"numberOfTeachersSecondary\": 0.0,\r\n          \"numberOfAids\":
+        35.3,\r\n          \"numberOfCoordsSupervisors\": 4.0,\r\n          \"numberOfGuidanceElem\":
+        1.0,\r\n          \"numberOfGuidanceSecondary\": 0.0,\r\n          \"numberOfGuidanceTotal\":
+        2.0,\r\n          \"numberOfLibrarians\": 0.0,\r\n          \"numberOfLibraryStaff\":
+        0.0,\r\n          \"numberOfLEAAdministrators\": 2.0,\r\n          \"numberOfLEASupportStaff\":
+        8.0,\r\n          \"numberOfSchoolAdministrators\": 8.7,\r\n          \"numberOfSchoolAdminSupportStaff\":
+        7.9,\r\n          \"numberOfStudentSupportStaff\": 10.0,\r\n          \"numberOfOtherSupportStaff\":
+        35.6\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"districtID\": \"0635130\",\r\n
+        \     \"districtName\": \"San Ramon Valley Unified\",\r\n      \"phone\":
+        \"(925) 552-5500\",\r\n      \"url\": \"https://www.schooldigger.com/go/CA/district/35130/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        37.812444,\r\n          \"longitude\": -121.977672\r\n        },\r\n        \"street\":
+        \"699 Old Orchard Dr.\",\r\n        \"city\": \"Danville\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"94526\",\r\n
+        \       \"zip4\": \"4331\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Danville/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94526/search.aspx\",\r\n
+        \       \"html\": \"699 Old Orchard Dr.<br />Danville, CA 94526-4331\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Contra Costa\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Contra+Costa/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"numberTotalSchools\": 36,\r\n      \"numberPrimarySchools\": 22,\r\n
+        \     \"numberMiddleSchools\": 8,\r\n      \"numberHighSchools\": 5,\r\n      \"numberAlternativeSchools\":
+        1,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 41,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 95.21,\r\n          \"rankScore\":
+        0.9277624\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        47,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        94.54,\r\n          \"rankScore\": 0.9216992\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 32425,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 1650,\r\n          \"numberOfTeachers\":
+        1347.5,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        104.8,\r\n          \"numberOfTeachersElementary\": 792.5,\r\n          \"numberOfTeachersSecondary\":
+        447.6,\r\n          \"numberOfAids\": 324.7,\r\n          \"numberOfCoordsSupervisors\":
+        36.6,\r\n          \"numberOfGuidanceElem\": 15.7,\r\n          \"numberOfGuidanceSecondary\":
+        23.9,\r\n          \"numberOfGuidanceTotal\": 2.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        3.0,\r\n          \"numberOfLEASupportStaff\": 64.5,\r\n          \"numberOfSchoolAdministrators\":
+        84.4,\r\n          \"numberOfSchoolAdminSupportStaff\": 125.6,\r\n          \"numberOfStudentSupportStaff\":
+        84.0,\r\n          \"numberOfOtherSupportStaff\": 351.5\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0607530\",\r\n      \"districtName\":
+        \"Carmel Unified\",\r\n      \"phone\": \"(831) 624-1546\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/07530/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 36.542638,\r\n          \"longitude\":
+        -121.896589\r\n        },\r\n        \"street\": \"4380 Carmel Valley Rd.\",\r\n
+        \       \"city\": \"Carmel\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"93922\",\r\n        \"zip4\": \"7942\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Carmel/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/93922/search.aspx\",\r\n
+        \       \"html\": \"4380 Carmel Valley Rd.<br />Carmel, CA 93922-7942\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Monterey\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Monterey/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"numberTotalSchools\": 7,\r\n      \"numberPrimarySchools\": 4,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 2,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 42,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 95.09,\r\n          \"rankScore\":
+        0.9262228\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        33,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        96.17,\r\n          \"rankScore\": 0.9438899\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 2509,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 146,\r\n          \"numberOfTeachers\":
+        143.7,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        9.0,\r\n          \"numberOfTeachersElementary\": 79.4,\r\n          \"numberOfTeachersSecondary\":
+        52.8,\r\n          \"numberOfAids\": 19.2,\r\n          \"numberOfCoordsSupervisors\":
+        22.7,\r\n          \"numberOfGuidanceElem\": 4.2,\r\n          \"numberOfGuidanceSecondary\":
+        4.0,\r\n          \"numberOfGuidanceTotal\": 0.5,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        2.0,\r\n          \"numberOfLEASupportStaff\": 14.0,\r\n          \"numberOfSchoolAdministrators\":
+        7.8,\r\n          \"numberOfSchoolAdminSupportStaff\": 22.3,\r\n          \"numberOfStudentSupportStaff\":
+        6.0,\r\n          \"numberOfOtherSupportStaff\": 75.4\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0641280\",\r\n      \"districtName\":
+        \"Walnut Valley Unified\",\r\n      \"phone\": \"(909) 595-1261\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/41280/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 34.00833,\r\n          \"longitude\":
+        -117.856895\r\n        },\r\n        \"street\": \"880 S. Lemon Ave.\",\r\n
+        \       \"city\": \"Walnut\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"91789\",\r\n        \"zip4\": \"2931\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Walnut/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/91789/search.aspx\",\r\n
+        \       \"html\": \"880 S. Lemon Ave.<br />Walnut, CA 91789-2931\"\r\n      },\r\n
+        \     \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\": true,\r\n
+        \     \"county\": {\r\n        \"countyName\": \"Los Angeles\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Los+Angeles/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"numberTotalSchools\": 15,\r\n      \"numberPrimarySchools\": 9,\r\n
+        \     \"numberMiddleSchools\": 3,\r\n      \"numberHighSchools\": 3,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 43,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 94.98,\r\n          \"rankScore\":
+        0.9255025\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        44,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        94.89,\r\n          \"rankScore\": 0.9241405\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 14519,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 1685,\r\n          \"numberOfTeachers\":
+        574.1,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        38.3,\r\n          \"numberOfTeachersElementary\": 304.4,\r\n          \"numberOfTeachersSecondary\":
+        231.3,\r\n          \"numberOfAids\": 94.8,\r\n          \"numberOfCoordsSupervisors\":
+        46.0,\r\n          \"numberOfGuidanceElem\": 13.0,\r\n          \"numberOfGuidanceSecondary\":
+        22.0,\r\n          \"numberOfGuidanceTotal\": 2.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        5.0,\r\n          \"numberOfLEASupportStaff\": 38.3,\r\n          \"numberOfSchoolAdministrators\":
+        25.4,\r\n          \"numberOfSchoolAdminSupportStaff\": 56.4,\r\n          \"numberOfStudentSupportStaff\":
+        46.9,\r\n          \"numberOfOtherSupportStaff\": 219.7\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0601860\",\r\n      \"districtName\":
+        \"Albany City Unified\",\r\n      \"phone\": \"(510) 558-3750\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/01860/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 37.884351,\r\n          \"longitude\":
+        -122.299603\r\n        },\r\n        \"street\": \"1051 Monroe St.\",\r\n
+        \       \"city\": \"Albany\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"94706\",\r\n        \"zip4\": \"2213\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Albany/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94706/search.aspx\",\r\n
+        \       \"html\": \"1051 Monroe St.<br />Albany, CA 94706-2213\"\r\n      },\r\n
+        \     \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\": true,\r\n
+        \     \"county\": {\r\n        \"countyName\": \"Alameda\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Alameda/search.aspx\"\r\n      },\r\n
+        \     \"lowGrade\": \"K\",\r\n      \"highGrade\": \"12\",\r\n      \"numberTotalSchools\":
+        6,\r\n      \"numberPrimarySchools\": 3,\r\n      \"numberMiddleSchools\":
+        1,\r\n      \"numberHighSchools\": 2,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 44,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 94.86,\r\n          \"rankScore\":
+        0.9230025\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        32,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        96.28,\r\n          \"rankScore\": 0.9444752\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 3702,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 674,\r\n          \"numberOfTeachers\":
+        170.7,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        13.0,\r\n          \"numberOfTeachersElementary\": 97.5,\r\n          \"numberOfTeachersSecondary\":
+        58.9,\r\n          \"numberOfAids\": 42.7,\r\n          \"numberOfCoordsSupervisors\":
+        18.8,\r\n          \"numberOfGuidanceElem\": 2.0,\r\n          \"numberOfGuidanceSecondary\":
+        3.6,\r\n          \"numberOfGuidanceTotal\": 0.6,\r\n          \"numberOfLibrarians\":
+        4.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        2.0,\r\n          \"numberOfLEASupportStaff\": 7.8,\r\n          \"numberOfSchoolAdministrators\":
+        7.9,\r\n          \"numberOfSchoolAdminSupportStaff\": 18.7,\r\n          \"numberOfStudentSupportStaff\":
+        8.4,\r\n          \"numberOfOtherSupportStaff\": 51.4\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0613080\",\r\n      \"districtName\":
+        \"Eureka Union\",\r\n      \"phone\": \"(916) 791-4939\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/13080/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 38.7363,\r\n          \"longitude\":
+        -121.1991\r\n        },\r\n        \"street\": \"5455 Eureka Rd.\",\r\n        \"city\":
+        \"Granite Bay\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\": \"California\",\r\n
+        \       \"zip\": \"95746\",\r\n        \"zip4\": \"8808\",\r\n        \"cityURL\":
+        \"https://www.schooldigger.com/go/CA/city/Granite+Bay/search.aspx\",\r\n        \"zipURL\":
+        \"https://www.schooldigger.com/go/CA/zip/95746/search.aspx\",\r\n        \"html\":
+        \"5455 Eureka Rd.<br />Granite Bay, CA 95746-8808\"\r\n      },\r\n      \"locationIsWithinBoundary\":
+        null,\r\n      \"hasBoundary\": true,\r\n      \"county\": {\r\n        \"countyName\":
+        \"Placer\",\r\n        \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Placer/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 7,\r\n      \"numberPrimarySchools\": 5,\r\n
+        \     \"numberMiddleSchools\": 2,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 45,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 94.74,\r\n          \"rankScore\":
+        0.9229799\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        50,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        94.19,\r\n          \"rankScore\": 0.9171483\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 3383,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 187,\r\n          \"numberOfTeachers\":
+        139.0,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        17.7,\r\n          \"numberOfTeachersElementary\": 121.3,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 57.3,\r\n          \"numberOfCoordsSupervisors\":
+        2.0,\r\n          \"numberOfGuidanceElem\": 4.4,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        2.0,\r\n          \"numberOfLEASupportStaff\": 10.5,\r\n          \"numberOfSchoolAdministrators\":
+        8.5,\r\n          \"numberOfSchoolAdminSupportStaff\": 12.2,\r\n          \"numberOfStudentSupportStaff\":
+        9.1,\r\n          \"numberOfOtherSupportStaff\": 38.5\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0604530\",\r\n      \"districtName\":
+        \"Belmont-Redwood Shores Elementary\",\r\n      \"phone\": \"(650) 637-4800\",\r\n
+        \     \"url\": \"https://www.schooldigger.com/go/CA/district/04530/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        37.5095,\r\n          \"longitude\": -122.3192\r\n        },\r\n        \"street\":
+        \"2960 Hallmark Dr.\",\r\n        \"city\": \"Belmont\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"94002\",\r\n
+        \       \"zip4\": \"2943\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Belmont/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/94002/search.aspx\",\r\n
+        \       \"html\": \"2960 Hallmark Dr.<br />Belmont, CA 94002-2943\"\r\n      },\r\n
+        \     \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\": true,\r\n
+        \     \"county\": {\r\n        \"countyName\": \"San Mateo\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/San+Mateo/search.aspx\"\r\n      },\r\n
+        \     \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n      \"numberTotalSchools\":
+        7,\r\n      \"numberPrimarySchools\": 6,\r\n      \"numberMiddleSchools\":
+        1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 46,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 94.63,\r\n          \"rankScore\":
+        0.9200619\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        42,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        95.12,\r\n          \"rankScore\": 0.9292047\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 4230,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 351,\r\n          \"numberOfTeachers\":
+        174.2,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        23.3,\r\n          \"numberOfTeachersElementary\": 150.9,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 29.1,\r\n          \"numberOfCoordsSupervisors\":
+        3.4,\r\n          \"numberOfGuidanceElem\": 3.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 11.4,\r\n          \"numberOfSchoolAdministrators\":
+        9.8,\r\n          \"numberOfSchoolAdminSupportStaff\": 10.6,\r\n          \"numberOfStudentSupportStaff\":
+        11.7,\r\n          \"numberOfOtherSupportStaff\": 41.3\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0622830\",\r\n      \"districtName\":
+        \"Los Gatos Union Elementary\",\r\n      \"phone\": \"(408) 335-2000\",\r\n
+        \     \"url\": \"https://www.schooldigger.com/go/CA/district/22830/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        37.234539,\r\n          \"longitude\": -121.967293\r\n        },\r\n        \"street\":
+        \"17010 Roberts Rd.\",\r\n        \"city\": \"Los Gatos\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"95032\",\r\n
+        \       \"zip4\": \"4510\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Los+Gatos/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/95032/search.aspx\",\r\n
+        \       \"html\": \"17010 Roberts Rd.<br />Los Gatos, CA 95032-4510\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Santa Clara\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Santa+Clara/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n
+        \     \"numberTotalSchools\": 5,\r\n      \"numberPrimarySchools\": 4,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 47,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 94.51,\r\n          \"rankScore\":
+        0.9186072\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        43,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        95.01,\r\n          \"rankScore\": 0.9244612\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 3263,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 113,\r\n          \"numberOfTeachers\":
+        144.6,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        12.5,\r\n          \"numberOfTeachersElementary\": 132.1,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 17.9,\r\n          \"numberOfCoordsSupervisors\":
+        9.1,\r\n          \"numberOfGuidanceElem\": 1.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 2.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 8.0,\r\n          \"numberOfSchoolAdministrators\":
+        7.5,\r\n          \"numberOfSchoolAdminSupportStaff\": 10.0,\r\n          \"numberOfStudentSupportStaff\":
+        13.4,\r\n          \"numberOfOtherSupportStaff\": 29.2\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0614220\",\r\n      \"districtName\":
+        \"Fountain Valley Elementary\",\r\n      \"phone\": \"(714) 843-3200\",\r\n
+        \     \"url\": \"https://www.schooldigger.com/go/CA/district/14220/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        33.7091,\r\n          \"longitude\": -117.9533\r\n        },\r\n        \"street\":
+        \"10055 Slater Ave.\",\r\n        \"city\": \"Fountain Valley\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"92708\",\r\n
+        \       \"zip4\": \"3405\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Fountain+Valley/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/92708/search.aspx\",\r\n
+        \       \"html\": \"10055 Slater Ave.<br />Fountain Valley, CA 92708-3405\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Orange\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Orange/search.aspx\"\r\n      },\r\n
+        \     \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n      \"numberTotalSchools\":
+        10,\r\n      \"numberPrimarySchools\": 7,\r\n      \"numberMiddleSchools\":
+        3,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 48,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 94.39,\r\n          \"rankScore\":
+        0.9146803\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        48,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        94.43,\r\n          \"rankScore\": 0.9194461\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 6387,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 882,\r\n          \"numberOfTeachers\":
+        239.5,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        28.5,\r\n          \"numberOfTeachersElementary\": 210.5,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 91.0,\r\n          \"numberOfCoordsSupervisors\":
+        3.5,\r\n          \"numberOfGuidanceElem\": 3.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        2.0,\r\n          \"numberOfLEASupportStaff\": 21.1,\r\n          \"numberOfSchoolAdministrators\":
+        13.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 19.6,\r\n          \"numberOfStudentSupportStaff\":
+        23.0,\r\n          \"numberOfOtherSupportStaff\": 84.2\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0629370\",\r\n      \"districtName\":
+        \"Pacific Grove Unified\",\r\n      \"phone\": \"(831) 646-6520\",\r\n      \"url\":
+        \"https://www.schooldigger.com/go/CA/district/29370/search.aspx\",\r\n      \"address\":
+        {\r\n        \"latLong\": {\r\n          \"latitude\": 36.62236,\r\n          \"longitude\":
+        -121.916921\r\n        },\r\n        \"street\": \"435 Hillcrest Ave.\",\r\n
+        \       \"city\": \"Pacific Grove\",\r\n        \"state\": \"CA\",\r\n        \"stateFull\":
+        \"California\",\r\n        \"zip\": \"93950\",\r\n        \"zip4\": \"4900\",\r\n
+        \       \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Pacific+Grove/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/93950/search.aspx\",\r\n
+        \       \"html\": \"435 Hillcrest Ave.<br />Pacific Grove, CA 93950-4900\"\r\n
+        \     },\r\n      \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\":
+        true,\r\n      \"county\": {\r\n        \"countyName\": \"Monterey\",\r\n
+        \       \"countyURL\": \"https://www.schooldigger.com/go/CA/county/Monterey/search.aspx\"\r\n
+        \     },\r\n      \"lowGrade\": \"K\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"numberTotalSchools\": 5,\r\n      \"numberPrimarySchools\": 2,\r\n
+        \     \"numberMiddleSchools\": 1,\r\n      \"numberHighSchools\": 2,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 49,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 94.28,\r\n          \"rankScore\":
+        0.9138596\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        74,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        91.41,\r\n          \"rankScore\": 0.8731580\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 2078,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 132,\r\n          \"numberOfTeachers\":
+        87.0,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        7.2,\r\n          \"numberOfTeachersElementary\": 52.8,\r\n          \"numberOfTeachersSecondary\":
+        25.9,\r\n          \"numberOfAids\": 31.6,\r\n          \"numberOfCoordsSupervisors\":
+        8.6,\r\n          \"numberOfGuidanceElem\": 2.7,\r\n          \"numberOfGuidanceSecondary\":
+        2.4,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 8.3,\r\n          \"numberOfSchoolAdministrators\":
+        6.9,\r\n          \"numberOfSchoolAdminSupportStaff\": 11.9,\r\n          \"numberOfStudentSupportStaff\":
+        5.6,\r\n          \"numberOfOtherSupportStaff\": 37.2\r\n        }\r\n      ]\r\n
+        \   },\r\n    {\r\n      \"districtID\": \"0622350\",\r\n      \"districtName\":
+        \"Loma Prieta Joint Union Elementary\",\r\n      \"phone\": \"(408) 353-1101\",\r\n
+        \     \"url\": \"https://www.schooldigger.com/go/CA/district/22350/search.aspx\",\r\n
+        \     \"address\": {\r\n        \"latLong\": {\r\n          \"latitude\":
+        37.12564,\r\n          \"longitude\": -121.944036\r\n        },\r\n        \"street\":
+        \"23800 Summit Rd.\",\r\n        \"city\": \"Los Gatos\",\r\n        \"state\":
+        \"CA\",\r\n        \"stateFull\": \"California\",\r\n        \"zip\": \"95033\",\r\n
+        \       \"zip4\": \"4054\",\r\n        \"cityURL\": \"https://www.schooldigger.com/go/CA/city/Los+Gatos/search.aspx\",\r\n
+        \       \"zipURL\": \"https://www.schooldigger.com/go/CA/zip/95033/search.aspx\",\r\n
+        \       \"html\": \"23800 Summit Rd.<br />Los Gatos, CA 95033-4054\"\r\n      },\r\n
+        \     \"locationIsWithinBoundary\": null,\r\n      \"hasBoundary\": true,\r\n
+        \     \"county\": {\r\n        \"countyName\": \"Santa Cruz\",\r\n        \"countyURL\":
+        \"https://www.schooldigger.com/go/CA/county/Santa+Cruz/search.aspx\"\r\n      },\r\n
+        \     \"lowGrade\": \"K\",\r\n      \"highGrade\": \"8\",\r\n      \"numberTotalSchools\":
+        2,\r\n      \"numberPrimarySchools\": 1,\r\n      \"numberMiddleSchools\":
+        1,\r\n      \"numberHighSchools\": 0,\r\n      \"numberAlternativeSchools\":
+        0,\r\n      \"rankHistory\": [\r\n        {\r\n          \"year\": 2018,\r\n
+        \         \"rank\": 50,\r\n          \"rankOf\": 856,\r\n          \"rankStars\":
+        5,\r\n          \"rankStatewidePercentage\": 94.16,\r\n          \"rankScore\":
+        0.9127643\r\n        },\r\n        {\r\n          \"year\": 2017,\r\n          \"rank\":
+        46,\r\n          \"rankOf\": 861,\r\n          \"rankStars\": 5,\r\n          \"rankStatewidePercentage\":
+        94.66,\r\n          \"rankScore\": 0.9226445\r\n        }\r\n      ],\r\n
+        \     \"districtYearlyDetails\": [\r\n        {\r\n          \"year\": 2017,\r\n
+        \         \"numberOfStudents\": 507,\r\n          \"numberOfSpecialEdStudents\":
+        null,\r\n          \"numberOfEnglishLanguageLearnerStudents\": 6,\r\n          \"numberOfTeachers\":
+        23.8,\r\n          \"numberOfTeachersPK\": 0.0,\r\n          \"numberOfTeachersK\":
+        2.0,\r\n          \"numberOfTeachersElementary\": 21.8,\r\n          \"numberOfTeachersSecondary\":
+        0.0,\r\n          \"numberOfAids\": 9.5,\r\n          \"numberOfCoordsSupervisors\":
+        3.5,\r\n          \"numberOfGuidanceElem\": 0.0,\r\n          \"numberOfGuidanceSecondary\":
+        0.0,\r\n          \"numberOfGuidanceTotal\": 0.0,\r\n          \"numberOfLibrarians\":
+        0.0,\r\n          \"numberOfLibraryStaff\": 0.0,\r\n          \"numberOfLEAAdministrators\":
+        1.0,\r\n          \"numberOfLEASupportStaff\": 1.8,\r\n          \"numberOfSchoolAdministrators\":
+        1.0,\r\n          \"numberOfSchoolAdminSupportStaff\": 2.1,\r\n          \"numberOfStudentSupportStaff\":
+        0.8,\r\n          \"numberOfOtherSupportStaff\": 9.0\r\n        }\r\n      ]\r\n
+        \   }\r\n  ],\r\n  \"rankCompareYear\": null\r\n}"
+    http_version: 
+  recorded_at: Thu, 07 Mar 2019 19:31:14 GMT
+recorded_with: VCR 4.0.0

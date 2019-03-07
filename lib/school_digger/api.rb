@@ -72,7 +72,7 @@ module SchoolDigger
     end
 
     ## response = SchoolDigger::Api.new.districts('CA')
-    ## response = SchoolDigger::Api.new.next_page(response)
+    ## next_page_response = SchoolDigger::Api.new.next_page(response)
     def next_page(response)
       max_pages = response["numberOfPages"]
       original_query  = response.request.options[:query]

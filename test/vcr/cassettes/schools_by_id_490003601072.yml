@@ -1,0 +1,560 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.schooldigger.com/v1.1/schools/490003601072?appID=<SCHOOL_DIGGER_APP_ID>&appKey=<SCHOOL_DIGGER_APP_KEY>
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '37663'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/10.0
+      X-Rate-Limit-Limit:
+      - '500'
+      X-Rate-Limit-Remaining:
+      - '491'
+      X-Rate-Limit-Reset:
+      - '60'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 07 Mar 2019 19:31:16 GMT
+    body:
+      encoding: UTF-8
+      string: "{\r\n  \"schoolid\": \"490003601072\",\r\n  \"schoolName\": \"East
+        Hollywood High\",\r\n  \"phone\": \"(801) 886-8181\",\r\n  \"url\": \"https://www.schooldigger.com/go/UT/schools/0003601072/school.aspx\",\r\n
+        \ \"urlCompare\": \"https://www.schooldigger.com/go/UT/schools/0003601072/search.aspx\",\r\n
+        \ \"address\": {\r\n    \"latLong\": {\r\n      \"latitude\": 40.723017,\r\n
+        \     \"longitude\": -111.978837\r\n    },\r\n    \"street\": \"2185 S 3600
+        W\",\r\n    \"city\": \"West Valley City\",\r\n    \"state\": \"UT\",\r\n
+        \   \"stateFull\": \"Utah\",\r\n    \"zip\": \"84119\",\r\n    \"zip4\": \"\",\r\n
+        \   \"cityURL\": \"https://www.schooldigger.com/go/UT/city/West+Valley+City/search.aspx\",\r\n
+        \   \"zipURL\": \"https://www.schooldigger.com/go/UT/zip/84119/search.aspx\",\r\n
+        \   \"html\": \"2185 S 3600 W<br />West Valley City, UT 84119\"\r\n  },\r\n
+        \ \"locale\": \"Suburb: Large\",\r\n  \"lowGrade\": \"9\",\r\n  \"highGrade\":
+        \"12\",\r\n  \"schoolLevel\": \"High\",\r\n  \"isCharterSchool\": \"Yes\",\r\n
+        \ \"isMagnetSchool\": \"Yes\",\r\n  \"isVirtualSchool\": \"No\",\r\n  \"isTitleISchool\":
+        \"Yes\",\r\n  \"isTitleISchoolwideSchool\": \"No\",\r\n  \"isPrivate\": false,\r\n
+        \ \"privateDays\": null,\r\n  \"privateHours\": null,\r\n  \"privateHasLibrary\":
+        null,\r\n  \"privateCoed\": null,\r\n  \"privateOrientation\": null,\r\n  \"boundary\":
+        {\r\n    \"hasBoundary\": false\r\n  },\r\n  \"district\": {\r\n    \"districtID\":
+        \"4900036\",\r\n    \"districtName\": \"East Hollywood High\",\r\n    \"url\":
+        \"https://www.schooldigger.com/go/UT/district/00036/search.aspx\",\r\n    \"rankURL\":
+        \"https://www.schooldigger.com/go/UT/districtrank.aspx?finddistrict=00036\"\r\n
+        \ },\r\n  \"county\": {\r\n    \"countyName\": \"Salt Lake\",\r\n    \"countyURL\":
+        \"https://www.schooldigger.com/go/UT/county/Salt+Lake/search.aspx\"\r\n  },\r\n
+        \ \"reviews\": null,\r\n  \"rankHistory\": [\r\n    {\r\n      \"year\": 2018,\r\n
+        \     \"rank\": 114,\r\n      \"rankOf\": 123,\r\n      \"rankStars\": 0,\r\n
+        \     \"rankLevel\": \"High\",\r\n      \"rankStatewidePercentage\": 7.32,\r\n
+        \     \"averageStandardScore\": 10.83200\r\n    },\r\n    {\r\n      \"year\":
+        2017,\r\n      \"rank\": 121,\r\n      \"rankOf\": 125,\r\n      \"rankStars\":
+        0,\r\n      \"rankLevel\": \"High\",\r\n      \"rankStatewidePercentage\":
+        3.2,\r\n      \"averageStandardScore\": 7.80050\r\n    },\r\n    {\r\n      \"year\":
+        2016,\r\n      \"rank\": 124,\r\n      \"rankOf\": 129,\r\n      \"rankStars\":
+        0,\r\n      \"rankLevel\": \"High\",\r\n      \"rankStatewidePercentage\":
+        3.88,\r\n      \"averageStandardScore\": 4.62783\r\n    },\r\n    {\r\n      \"year\":
+        2015,\r\n      \"rank\": 120,\r\n      \"rankOf\": 131,\r\n      \"rankStars\":
+        0,\r\n      \"rankLevel\": \"High\",\r\n      \"rankStatewidePercentage\":
+        8.4,\r\n      \"averageStandardScore\": 9.78171\r\n    },\r\n    {\r\n      \"year\":
+        2014,\r\n      \"rank\": 115,\r\n      \"rankOf\": 120,\r\n      \"rankStars\":
+        0,\r\n      \"rankLevel\": \"High\",\r\n      \"rankStatewidePercentage\":
+        4.17,\r\n      \"averageStandardScore\": 10.10550\r\n    },\r\n    {\r\n      \"year\":
+        2013,\r\n      \"rank\": 133,\r\n      \"rankOf\": 167,\r\n      \"rankStars\":
+        1,\r\n      \"rankLevel\": \"High\",\r\n      \"rankStatewidePercentage\":
+        20.36,\r\n      \"averageStandardScore\": 27.71356\r\n    },\r\n    {\r\n
+        \     \"year\": 2012,\r\n      \"rank\": 122,\r\n      \"rankOf\": 166,\r\n
+        \     \"rankStars\": 1,\r\n      \"rankLevel\": \"High\",\r\n      \"rankStatewidePercentage\":
+        26.51,\r\n      \"averageStandardScore\": 32.64133\r\n    },\r\n    {\r\n
+        \     \"year\": 2011,\r\n      \"rank\": 58,\r\n      \"rankOf\": 164,\r\n
+        \     \"rankStars\": 3,\r\n      \"rankLevel\": \"High\",\r\n      \"rankStatewidePercentage\":
+        64.63,\r\n      \"averageStandardScore\": 54.40788\r\n    },\r\n    {\r\n
+        \     \"year\": 2010,\r\n      \"rank\": 90,\r\n      \"rankOf\": 153,\r\n
+        \     \"rankStars\": 2,\r\n      \"rankLevel\": \"High\",\r\n      \"rankStatewidePercentage\":
+        41.18,\r\n      \"averageStandardScore\": 43.78463\r\n    },\r\n    {\r\n
+        \     \"year\": 2009,\r\n      \"rank\": 65,\r\n      \"rankOf\": 148,\r\n
+        \     \"rankStars\": 3,\r\n      \"rankLevel\": \"High\",\r\n      \"rankStatewidePercentage\":
+        56.08,\r\n      \"averageStandardScore\": 51.77100\r\n    },\r\n    {\r\n
+        \     \"year\": 2008,\r\n      \"rank\": 18,\r\n      \"rankOf\": 142,\r\n
+        \     \"rankStars\": 4,\r\n      \"rankLevel\": \"High\",\r\n      \"rankStatewidePercentage\":
+        87.32,\r\n      \"averageStandardScore\": 65.64214\r\n    }\r\n  ],\r\n  \"rankMovement\":
+        7,\r\n  \"testScores\": [\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2008,\r\n      \"grade\": \"10\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 85.0\r\n      }\r\n
+        \   },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\": \"Language
+        Arts\",\r\n      \"year\": 2009,\r\n      \"grade\": \"10\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 88.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Language Arts\",\r\n      \"year\":
+        2010,\r\n      \"grade\": \"10\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        78.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2011,\r\n      \"grade\": \"10\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 85.0\r\n      }\r\n
+        \   },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\": \"Language
+        Arts\",\r\n      \"year\": 2012,\r\n      \"grade\": \"10\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 80.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Language Arts\",\r\n      \"year\":
+        2013,\r\n      \"grade\": \"10\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        76.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2008,\r\n      \"grade\": \"11\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 88.0\r\n      }\r\n
+        \   },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\": \"Language
+        Arts\",\r\n      \"year\": 2009,\r\n      \"grade\": \"11\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 87.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Language Arts\",\r\n      \"year\":
+        2010,\r\n      \"grade\": \"11\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        72.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2011,\r\n      \"grade\": \"11\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 81.0\r\n      }\r\n
+        \   },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\": \"Language
+        Arts\",\r\n      \"year\": 2012,\r\n      \"grade\": \"11\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 83.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Language Arts\",\r\n      \"year\":
+        2013,\r\n      \"grade\": \"11\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        72.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2008,\r\n      \"grade\": \"9\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 76.0\r\n      }\r\n
+        \   },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\": \"Language
+        Arts\",\r\n      \"year\": 2009,\r\n      \"grade\": \"9\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 78.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Language Arts\",\r\n      \"year\":
+        2010,\r\n      \"grade\": \"9\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        82.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2011,\r\n      \"grade\": \"9\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 86.0\r\n      }\r\n
+        \   },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\": \"Language
+        Arts\",\r\n      \"year\": 2012,\r\n      \"grade\": \"9\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 80.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Language Arts\",\r\n      \"year\":
+        2013,\r\n      \"grade\": \"9\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        61.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Algebra I\",\r\n      \"year\": 2010,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 33.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Algebra I\",\r\n      \"year\":
+        2011,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        32.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Algebra I\",\r\n      \"year\": 2012,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 11.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Algebra I\",\r\n      \"year\":
+        2013,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        19.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Geometry\",\r\n      \"year\": 2008,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 95.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Geometry\",\r\n      \"year\":
+        2009,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        77.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Geometry\",\r\n      \"year\": 2010,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 78.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Geometry\",\r\n      \"year\":
+        2011,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        85.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Geometry\",\r\n      \"year\": 2012,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 17.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Geometry\",\r\n      \"year\":
+        2013,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        32.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Algebra II\",\r\n      \"year\": 2008,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 73.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Algebra II\",\r\n      \"year\":
+        2009,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        27.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Algebra II\",\r\n      \"year\": 2010,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 19.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Algebra II\",\r\n      \"year\":
+        2011,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        71.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Algebra II\",\r\n      \"year\": 2012,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 40.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Algebra II\",\r\n      \"year\":
+        2013,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        22.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Earth Systems Science\",\r\n      \"year\": 2008,\r\n      \"grade\": \"13\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 76.0\r\n      }\r\n
+        \   },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\": \"Earth
+        Systems Science\",\r\n      \"year\": 2009,\r\n      \"grade\": \"13\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 58.0\r\n      }\r\n
+        \   },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\": \"Earth
+        Systems Science\",\r\n      \"year\": 2010,\r\n      \"grade\": \"13\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 69.0\r\n      }\r\n
+        \   },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\": \"Earth
+        Systems Science\",\r\n      \"year\": 2011,\r\n      \"grade\": \"13\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 64.0\r\n      }\r\n
+        \   },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\": \"Earth
+        Systems Science\",\r\n      \"year\": 2012,\r\n      \"grade\": \"13\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 61.0\r\n      }\r\n
+        \   },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\": \"Earth
+        Systems Science\",\r\n      \"year\": 2013,\r\n      \"grade\": \"13\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 44.0\r\n      }\r\n
+        \   },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\": \"Biology\",\r\n
+        \     \"year\": 2008,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 76.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Biology\",\r\n      \"year\":
+        2009,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        75.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Biology\",\r\n      \"year\": 2010,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 66.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Biology\",\r\n      \"year\":
+        2011,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        68.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Biology\",\r\n      \"year\": 2012,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 52.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Biology\",\r\n      \"year\":
+        2013,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        59.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"CRT\",\r\n      \"subject\":
+        \"Chemistry\",\r\n      \"year\": 2012,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 36.0\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"CRT\",\r\n      \"subject\": \"Chemistry\",\r\n      \"year\":
+        2013,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        75.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2014,\r\n      \"grade\": \"10\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 19.6\r\n      },\r\n
+        \     \"districtTestScore\": {\r\n        \"percentMetStandard\": 19.6\r\n
+        \     },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        40.6\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2015,\r\n      \"grade\": \"10\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 22.2\r\n      },\r\n
+        \     \"districtTestScore\": {\r\n        \"percentMetStandard\": 22.2\r\n
+        \     },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        46.6\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2016,\r\n      \"grade\": \"10\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 16.4\r\n      },\r\n
+        \     \"districtTestScore\": {\r\n        \"percentMetStandard\": 16.4\r\n
+        \     },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        44.8\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2017,\r\n      \"grade\": \"10\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 12.3,\r\n
+        \       \"percentTier1\": 61.4,\r\n        \"percentTier2\": 26.3,\r\n        \"percentTier3\":
+        12.3,\r\n        \"percentTier4\": 0.0\r\n      },\r\n      \"districtTestScore\":
+        {\r\n        \"percentMetStandard\": 12.3,\r\n        \"percentTier1\": 61.4,\r\n
+        \       \"percentTier2\": 26.3,\r\n        \"percentTier3\": 12.3,\r\n        \"percentTier4\":
+        0.0\r\n      },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        41.1,\r\n        \"percentTier1\": 43.0,\r\n        \"percentTier2\": 15.9,\r\n
+        \       \"percentTier3\": 27.5,\r\n        \"percentTier4\": 13.6\r\n      },\r\n
+        \     \"tier1\": \"Below Proficient\",\r\n      \"tier2\": \"Approaching Proficient\",\r\n
+        \     \"tier3\": \"Proficient\",\r\n      \"tier4\": \"Highly Proficient\"\r\n
+        \   },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\": \"Language
+        Arts\",\r\n      \"year\": 2018,\r\n      \"grade\": \"10\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 31.48\r\n      },\r\n      \"districtTestScore\":
+        {\r\n        \"percentMetStandard\": 31.48\r\n      },\r\n      \"stateTestScore\":
+        {\r\n        \"percentMetStandard\": 41.76\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"SAGE\",\r\n      \"subject\": \"Language Arts\",\r\n      \"year\":
+        2014,\r\n      \"grade\": \"11\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        14.3\r\n      },\r\n      \"districtTestScore\": {\r\n        \"percentMetStandard\":
+        14.3\r\n      },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        38.4\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2015,\r\n      \"grade\": \"11\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 19.4\r\n      },\r\n
+        \     \"districtTestScore\": {\r\n        \"percentMetStandard\": 19.4\r\n
+        \     },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        41.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2016,\r\n      \"grade\": \"11\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 11.5\r\n      },\r\n
+        \     \"districtTestScore\": {\r\n        \"percentMetStandard\": 11.5\r\n
+        \     },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        37.6\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2014,\r\n      \"grade\": \"9\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 25.0\r\n      },\r\n
+        \     \"districtTestScore\": {\r\n        \"percentMetStandard\": 25.0\r\n
+        \     },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        39.9\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2015,\r\n      \"grade\": \"9\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 14.8\r\n      },\r\n
+        \     \"districtTestScore\": {\r\n        \"percentMetStandard\": 14.8\r\n
+        \     },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        44.9\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Language Arts\",\r\n      \"year\": 2017,\r\n      \"grade\": \"9\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 22.5,\r\n
+        \       \"percentTier1\": 55.0,\r\n        \"percentTier2\": 22.5,\r\n        \"percentTier3\":
+        15.0,\r\n        \"percentTier4\": 7.5\r\n      },\r\n      \"districtTestScore\":
+        {\r\n        \"percentMetStandard\": 22.5,\r\n        \"percentTier1\": 55.0,\r\n
+        \       \"percentTier2\": 22.5,\r\n        \"percentTier3\": 15.0,\r\n        \"percentTier4\":
+        7.5\r\n      },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        39.1,\r\n        \"percentTier1\": 37.7,\r\n        \"percentTier2\": 23.2,\r\n
+        \       \"percentTier3\": 26.9,\r\n        \"percentTier4\": 12.2\r\n      },\r\n
+        \     \"tier1\": \"Below Proficient\",\r\n      \"tier2\": \"Approaching Proficient\",\r\n
+        \     \"tier3\": \"Proficient\",\r\n      \"tier4\": \"Highly Proficient\"\r\n
+        \   },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\": \"Language
+        Arts\",\r\n      \"year\": 2018,\r\n      \"grade\": \"9\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 23.53\r\n      },\r\n      \"districtTestScore\":
+        {\r\n        \"percentMetStandard\": 23.53\r\n      },\r\n      \"stateTestScore\":
+        {\r\n        \"percentMetStandard\": 41.49\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"SAGE\",\r\n      \"subject\": \"Biology\",\r\n      \"year\":
+        2014,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        17.5\r\n      },\r\n      \"districtTestScore\": {\r\n        \"percentMetStandard\":
+        17.5\r\n      },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        38.1\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Biology\",\r\n      \"year\": 2015,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 32.7\r\n      },\r\n      \"districtTestScore\":
+        {\r\n        \"percentMetStandard\": 32.7\r\n      },\r\n      \"stateTestScore\":
+        {\r\n        \"percentMetStandard\": 43.5\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"SAGE\",\r\n      \"subject\": \"Biology\",\r\n      \"year\":
+        2016,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        18.8\r\n      },\r\n      \"districtTestScore\": {\r\n        \"percentMetStandard\":
+        18.8\r\n      },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        43.6\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Biology\",\r\n      \"year\": 2017,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 18.7,\r\n        \"percentTier1\": 48.4,\r\n
+        \       \"percentTier2\": 32.8,\r\n        \"percentTier3\": 15.6,\r\n        \"percentTier4\":
+        3.1\r\n      },\r\n      \"districtTestScore\": {\r\n        \"percentMetStandard\":
+        18.7,\r\n        \"percentTier1\": 48.4,\r\n        \"percentTier2\": 32.8,\r\n
+        \       \"percentTier3\": 15.6,\r\n        \"percentTier4\": 3.1\r\n      },\r\n
+        \     \"stateTestScore\": {\r\n        \"percentMetStandard\": 42.5,\r\n        \"percentTier1\":
+        34.5,\r\n        \"percentTier2\": 23.0,\r\n        \"percentTier3\": 20.6,\r\n
+        \       \"percentTier4\": 21.9\r\n      },\r\n      \"tier1\": \"Below Proficient\",\r\n
+        \     \"tier2\": \"Approaching Proficient\",\r\n      \"tier3\": \"Proficient\",\r\n
+        \     \"tier4\": \"Highly Proficient\"\r\n    },\r\n    {\r\n      \"test\":
+        \"SAGE\",\r\n      \"subject\": \"Biology\",\r\n      \"year\": 2018,\r\n
+        \     \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        18.75\r\n      },\r\n      \"districtTestScore\": {\r\n        \"percentMetStandard\":
+        18.75\r\n      },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        43.38\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Earth Science\",\r\n      \"year\": 2015,\r\n      \"grade\": \"13\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 27.5\r\n      },\r\n
+        \     \"districtTestScore\": {\r\n        \"percentMetStandard\": 27.5\r\n
+        \     },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        44.9\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Earth Science\",\r\n      \"year\": 2016,\r\n      \"grade\": \"13\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 16.7\r\n      },\r\n
+        \     \"districtTestScore\": {\r\n        \"percentMetStandard\": 16.7\r\n
+        \     },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        44.2\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Earth Science\",\r\n      \"year\": 2017,\r\n      \"grade\": \"13\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 28.8,\r\n
+        \       \"percentTier1\": 54.5,\r\n        \"percentTier2\": 16.7,\r\n        \"percentTier3\":
+        16.7,\r\n        \"percentTier4\": 12.1\r\n      },\r\n      \"districtTestScore\":
+        {\r\n        \"percentMetStandard\": 28.8,\r\n        \"percentTier1\": 54.5,\r\n
+        \       \"percentTier2\": 16.7,\r\n        \"percentTier3\": 16.7,\r\n        \"percentTier4\":
+        12.1\r\n      },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        42.0,\r\n        \"percentTier1\": 36.7,\r\n        \"percentTier2\": 21.4,\r\n
+        \       \"percentTier3\": 26.2,\r\n        \"percentTier4\": 15.8\r\n      },\r\n
+        \     \"tier1\": \"Below Proficient\",\r\n      \"tier2\": \"Approaching Proficient\",\r\n
+        \     \"tier3\": \"Proficient\",\r\n      \"tier4\": \"Highly Proficient\"\r\n
+        \   },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\": \"Earth
+        Science\",\r\n      \"year\": 2018,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 28.13\r\n      },\r\n      \"districtTestScore\":
+        {\r\n        \"percentMetStandard\": 28.13\r\n      },\r\n      \"stateTestScore\":
+        {\r\n        \"percentMetStandard\": 43.05\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"SAGE\",\r\n      \"subject\": \"Secondary Math I\",\r\n
+        \     \"year\": 2014,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 5.6\r\n      },\r\n      \"districtTestScore\":
+        {\r\n        \"percentMetStandard\": 5.6\r\n      },\r\n      \"stateTestScore\":
+        {\r\n        \"percentMetStandard\": 31.4\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"SAGE\",\r\n      \"subject\": \"Secondary Math I\",\r\n
+        \     \"year\": 2015,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 13.8\r\n      },\r\n      \"districtTestScore\":
+        {\r\n        \"percentMetStandard\": 13.8\r\n      },\r\n      \"stateTestScore\":
+        {\r\n        \"percentMetStandard\": 40.8\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"SAGE\",\r\n      \"subject\": \"Secondary Math I\",\r\n
+        \     \"year\": 2016,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 15.0\r\n      },\r\n      \"districtTestScore\":
+        {\r\n        \"percentMetStandard\": 15.0\r\n      },\r\n      \"stateTestScore\":
+        {\r\n        \"percentMetStandard\": 41.5\r\n      }\r\n    },\r\n    {\r\n
+        \     \"test\": \"SAGE\",\r\n      \"subject\": \"Secondary Math I\",\r\n
+        \     \"year\": 2017,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 12.2,\r\n        \"percentTier1\": 73.5,\r\n
+        \       \"percentTier2\": 14.3,\r\n        \"percentTier3\": 10.2,\r\n        \"percentTier4\":
+        2.0\r\n      },\r\n      \"districtTestScore\": {\r\n        \"percentMetStandard\":
+        12.2,\r\n        \"percentTier1\": 73.5,\r\n        \"percentTier2\": 14.3,\r\n
+        \       \"percentTier3\": 10.2,\r\n        \"percentTier4\": 2.0\r\n      },\r\n
+        \     \"stateTestScore\": {\r\n        \"percentMetStandard\": 40.9,\r\n        \"percentTier1\":
+        34.9,\r\n        \"percentTier2\": 24.3,\r\n        \"percentTier3\": 24.5,\r\n
+        \       \"percentTier4\": 16.4\r\n      },\r\n      \"tier1\": \"Below Proficient\",\r\n
+        \     \"tier2\": \"Approaching Proficient\",\r\n      \"tier3\": \"Proficient\",\r\n
+        \     \"tier4\": \"Highly Proficient\"\r\n    },\r\n    {\r\n      \"test\":
+        \"SAGE\",\r\n      \"subject\": \"Secondary Math I\",\r\n      \"year\": 2018,\r\n
+        \     \"grade\": \"13\",\r\n      \"schoolTestScore\": {\r\n        \"percentMetStandard\":
+        13.04\r\n      },\r\n      \"districtTestScore\": {\r\n        \"percentMetStandard\":
+        13.04\r\n      },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        42.09\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Secondary Math II\",\r\n      \"year\": 2014,\r\n      \"grade\": \"13\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 12.7\r\n      },\r\n
+        \     \"districtTestScore\": {\r\n        \"percentMetStandard\": 12.7\r\n
+        \     },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        27.3\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Secondary Math II\",\r\n      \"year\": 2015,\r\n      \"grade\": \"13\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 9.8\r\n      },\r\n
+        \     \"districtTestScore\": {\r\n        \"percentMetStandard\": 9.8\r\n
+        \     },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        36.4\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Secondary Math II\",\r\n      \"year\": 2016,\r\n      \"grade\": \"13\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 10.2\r\n      },\r\n
+        \     \"districtTestScore\": {\r\n        \"percentMetStandard\": 10.2\r\n
+        \     },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        38.0\r\n      }\r\n    },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\":
+        \"Secondary Math II\",\r\n      \"year\": 2017,\r\n      \"grade\": \"13\",\r\n
+        \     \"schoolTestScore\": {\r\n        \"percentMetStandard\": 12.0,\r\n
+        \       \"percentTier1\": 65.5,\r\n        \"percentTier2\": 22.4,\r\n        \"percentTier3\":
+        10.3,\r\n        \"percentTier4\": 1.7\r\n      },\r\n      \"districtTestScore\":
+        {\r\n        \"percentMetStandard\": 12.0,\r\n        \"percentTier1\": 65.5,\r\n
+        \       \"percentTier2\": 22.4,\r\n        \"percentTier3\": 10.3,\r\n        \"percentTier4\":
+        1.7\r\n      },\r\n      \"stateTestScore\": {\r\n        \"percentMetStandard\":
+        38.0,\r\n        \"percentTier1\": 33.5,\r\n        \"percentTier2\": 28.5,\r\n
+        \       \"percentTier3\": 22.4,\r\n        \"percentTier4\": 15.6\r\n      },\r\n
+        \     \"tier1\": \"Below Proficient\",\r\n      \"tier2\": \"Approaching Proficient\",\r\n
+        \     \"tier3\": \"Proficient\",\r\n      \"tier4\": \"Highly Proficient\"\r\n
+        \   },\r\n    {\r\n      \"test\": \"SAGE\",\r\n      \"subject\": \"Secondary
+        Math II\",\r\n      \"year\": 2018,\r\n      \"grade\": \"13\",\r\n      \"schoolTestScore\":
+        {\r\n        \"percentMetStandard\": 17.02\r\n      },\r\n      \"districtTestScore\":
+        {\r\n        \"percentMetStandard\": 17.02\r\n      },\r\n      \"stateTestScore\":
+        {\r\n        \"percentMetStandard\": 38.53\r\n      }\r\n    }\r\n  ],\r\n
+        \ \"schoolYearlyDetails\": [\r\n    {\r\n      \"year\": 2017,\r\n      \"numberOfStudents\":
+        349,\r\n      \"percentFreeDiscLunch\": 47.9,\r\n      \"percentofAfricanAmericanStudents\":
+        0.57,\r\n      \"percentofAsianStudents\": 0.86,\r\n      \"percentofHispanicStudents\":
+        20.92,\r\n      \"percentofIndianStudents\": 1.43,\r\n      \"percentofPacificIslanderStudents\":
+        0.86,\r\n      \"percentofWhiteStudents\": 74.79,\r\n      \"percentofTwoOrMoreRaceStudents\":
+        0.57,\r\n      \"percentofUnspecifiedRaceStudents\": 0.0,\r\n      \"teachersFulltime\":
+        14.8,\r\n      \"pupilTeacherRatio\": 23.5,\r\n      \"numberofAfricanAmericanStudents\":
+        2,\r\n      \"numberofAsianStudents\": 3,\r\n      \"numberofHispanicStudents\":
+        73,\r\n      \"numberofIndianStudents\": 5,\r\n      \"numberofPacificIslanderStudents\":
+        3,\r\n      \"numberofWhiteStudents\": 261,\r\n      \"numberofTwoOrMoreRaceStudents\":
+        2,\r\n      \"numberofUnspecifiedRaceStudents\": 0\r\n    },\r\n    {\r\n
+        \     \"year\": 2016,\r\n      \"numberOfStudents\": 336,\r\n      \"percentFreeDiscLunch\":
+        52.7,\r\n      \"percentofAfricanAmericanStudents\": 0.89,\r\n      \"percentofAsianStudents\":
+        0.30,\r\n      \"percentofHispanicStudents\": 19.35,\r\n      \"percentofIndianStudents\":
+        0.89,\r\n      \"percentofPacificIslanderStudents\": 0.89,\r\n      \"percentofWhiteStudents\":
+        76.49,\r\n      \"percentofTwoOrMoreRaceStudents\": 1.19,\r\n      \"percentofUnspecifiedRaceStudents\":
+        0.0,\r\n      \"teachersFulltime\": null,\r\n      \"pupilTeacherRatio\":
+        null,\r\n      \"numberofAfricanAmericanStudents\": 3,\r\n      \"numberofAsianStudents\":
+        1,\r\n      \"numberofHispanicStudents\": 65,\r\n      \"numberofIndianStudents\":
+        3,\r\n      \"numberofPacificIslanderStudents\": 3,\r\n      \"numberofWhiteStudents\":
+        257,\r\n      \"numberofTwoOrMoreRaceStudents\": 4,\r\n      \"numberofUnspecifiedRaceStudents\":
+        0\r\n    },\r\n    {\r\n      \"year\": 2015,\r\n      \"numberOfStudents\":
+        330,\r\n      \"percentFreeDiscLunch\": 45.5,\r\n      \"percentofAfricanAmericanStudents\":
+        0.61,\r\n      \"percentofAsianStudents\": 0.91,\r\n      \"percentofHispanicStudents\":
+        18.79,\r\n      \"percentofIndianStudents\": 0.61,\r\n      \"percentofPacificIslanderStudents\":
+        0.61,\r\n      \"percentofWhiteStudents\": 78.48,\r\n      \"percentofTwoOrMoreRaceStudents\":
+        0.0,\r\n      \"percentofUnspecifiedRaceStudents\": 0.0,\r\n      \"teachersFulltime\":
+        null,\r\n      \"pupilTeacherRatio\": null,\r\n      \"numberofAfricanAmericanStudents\":
+        2,\r\n      \"numberofAsianStudents\": 3,\r\n      \"numberofHispanicStudents\":
+        62,\r\n      \"numberofIndianStudents\": 2,\r\n      \"numberofPacificIslanderStudents\":
+        2,\r\n      \"numberofWhiteStudents\": 259,\r\n      \"numberofTwoOrMoreRaceStudents\":
+        0,\r\n      \"numberofUnspecifiedRaceStudents\": 0\r\n    },\r\n    {\r\n
+        \     \"year\": 2014,\r\n      \"numberOfStudents\": 309,\r\n      \"percentFreeDiscLunch\":
+        42.4,\r\n      \"percentofAfricanAmericanStudents\": 0.0,\r\n      \"percentofAsianStudents\":
+        1.29,\r\n      \"percentofHispanicStudents\": 22.65,\r\n      \"percentofIndianStudents\":
+        0.65,\r\n      \"percentofPacificIslanderStudents\": 0.32,\r\n      \"percentofWhiteStudents\":
+        74.43,\r\n      \"percentofTwoOrMoreRaceStudents\": 0.65,\r\n      \"percentofUnspecifiedRaceStudents\":
+        0.0,\r\n      \"teachersFulltime\": 14.8,\r\n      \"pupilTeacherRatio\":
+        20.8,\r\n      \"numberofAfricanAmericanStudents\": 0,\r\n      \"numberofAsianStudents\":
+        4,\r\n      \"numberofHispanicStudents\": 70,\r\n      \"numberofIndianStudents\":
+        2,\r\n      \"numberofPacificIslanderStudents\": 1,\r\n      \"numberofWhiteStudents\":
+        230,\r\n      \"numberofTwoOrMoreRaceStudents\": 2,\r\n      \"numberofUnspecifiedRaceStudents\":
+        0\r\n    },\r\n    {\r\n      \"year\": 2013,\r\n      \"numberOfStudents\":
+        327,\r\n      \"percentFreeDiscLunch\": 48.6,\r\n      \"percentofAfricanAmericanStudents\":
+        0.0,\r\n      \"percentofAsianStudents\": 1.22,\r\n      \"percentofHispanicStudents\":
+        23.55,\r\n      \"percentofIndianStudents\": 0.31,\r\n      \"percentofPacificIslanderStudents\":
+        0.0,\r\n      \"percentofWhiteStudents\": 73.70,\r\n      \"percentofTwoOrMoreRaceStudents\":
+        1.22,\r\n      \"percentofUnspecifiedRaceStudents\": 0.0,\r\n      \"teachersFulltime\":
+        18.0,\r\n      \"pupilTeacherRatio\": 18.1,\r\n      \"numberofAfricanAmericanStudents\":
+        0,\r\n      \"numberofAsianStudents\": 4,\r\n      \"numberofHispanicStudents\":
+        77,\r\n      \"numberofIndianStudents\": 1,\r\n      \"numberofPacificIslanderStudents\":
+        0,\r\n      \"numberofWhiteStudents\": 241,\r\n      \"numberofTwoOrMoreRaceStudents\":
+        4,\r\n      \"numberofUnspecifiedRaceStudents\": 0\r\n    },\r\n    {\r\n
+        \     \"year\": 2012,\r\n      \"numberOfStudents\": 311,\r\n      \"percentFreeDiscLunch\":
+        89.7,\r\n      \"percentofAfricanAmericanStudents\": 0.0,\r\n      \"percentofAsianStudents\":
+        0.0,\r\n      \"percentofHispanicStudents\": 27.01,\r\n      \"percentofIndianStudents\":
+        0.32,\r\n      \"percentofPacificIslanderStudents\": 0.0,\r\n      \"percentofWhiteStudents\":
+        72.67,\r\n      \"percentofTwoOrMoreRaceStudents\": 0.0,\r\n      \"percentofUnspecifiedRaceStudents\":
+        0.0,\r\n      \"teachersFulltime\": 16.2,\r\n      \"pupilTeacherRatio\":
+        19.1,\r\n      \"numberofAfricanAmericanStudents\": 0,\r\n      \"numberofAsianStudents\":
+        0,\r\n      \"numberofHispanicStudents\": 84,\r\n      \"numberofIndianStudents\":
+        1,\r\n      \"numberofPacificIslanderStudents\": 0,\r\n      \"numberofWhiteStudents\":
+        226,\r\n      \"numberofTwoOrMoreRaceStudents\": 0,\r\n      \"numberofUnspecifiedRaceStudents\":
+        0\r\n    },\r\n    {\r\n      \"year\": 2011,\r\n      \"numberOfStudents\":
+        317,\r\n      \"percentFreeDiscLunch\": 34.1,\r\n      \"percentofAfricanAmericanStudents\":
+        0.95,\r\n      \"percentofAsianStudents\": 2.52,\r\n      \"percentofHispanicStudents\":
+        20.50,\r\n      \"percentofIndianStudents\": 1.58,\r\n      \"percentofPacificIslanderStudents\":
+        0.95,\r\n      \"percentofWhiteStudents\": 73.19,\r\n      \"percentofTwoOrMoreRaceStudents\":
+        0.32,\r\n      \"percentofUnspecifiedRaceStudents\": 0.0,\r\n      \"teachersFulltime\":
+        17.8,\r\n      \"pupilTeacherRatio\": 17.7,\r\n      \"numberofAfricanAmericanStudents\":
+        3,\r\n      \"numberofAsianStudents\": 8,\r\n      \"numberofHispanicStudents\":
+        65,\r\n      \"numberofIndianStudents\": 5,\r\n      \"numberofPacificIslanderStudents\":
+        3,\r\n      \"numberofWhiteStudents\": 232,\r\n      \"numberofTwoOrMoreRaceStudents\":
+        1,\r\n      \"numberofUnspecifiedRaceStudents\": 0\r\n    },\r\n    {\r\n
+        \     \"year\": 2010,\r\n      \"numberOfStudents\": 298,\r\n      \"percentFreeDiscLunch\":
+        26.5,\r\n      \"percentofAfricanAmericanStudents\": 2.35,\r\n      \"percentofAsianStudents\":
+        3.02,\r\n      \"percentofHispanicStudents\": 15.44,\r\n      \"percentofIndianStudents\":
+        1.68,\r\n      \"percentofPacificIslanderStudents\": null,\r\n      \"percentofWhiteStudents\":
+        73.83,\r\n      \"percentofTwoOrMoreRaceStudents\": null,\r\n      \"percentofUnspecifiedRaceStudents\":
+        3.69,\r\n      \"teachersFulltime\": 19.2,\r\n      \"pupilTeacherRatio\":
+        15.5,\r\n      \"numberofAfricanAmericanStudents\": 7,\r\n      \"numberofAsianStudents\":
+        9,\r\n      \"numberofHispanicStudents\": 46,\r\n      \"numberofIndianStudents\":
+        5,\r\n      \"numberofPacificIslanderStudents\": null,\r\n      \"numberofWhiteStudents\":
+        220,\r\n      \"numberofTwoOrMoreRaceStudents\": null,\r\n      \"numberofUnspecifiedRaceStudents\":
+        11\r\n    },\r\n    {\r\n      \"year\": 2009,\r\n      \"numberOfStudents\":
+        286,\r\n      \"percentFreeDiscLunch\": 28.4,\r\n      \"percentofAfricanAmericanStudents\":
+        3.15,\r\n      \"percentofAsianStudents\": 3.85,\r\n      \"percentofHispanicStudents\":
+        13.29,\r\n      \"percentofIndianStudents\": 1.40,\r\n      \"percentofPacificIslanderStudents\":
+        null,\r\n      \"percentofWhiteStudents\": 77.97,\r\n      \"percentofTwoOrMoreRaceStudents\":
+        null,\r\n      \"percentofUnspecifiedRaceStudents\": 0.35,\r\n      \"teachersFulltime\":
+        0.6,\r\n      \"pupilTeacherRatio\": 14.5,\r\n      \"numberofAfricanAmericanStudents\":
+        9,\r\n      \"numberofAsianStudents\": 11,\r\n      \"numberofHispanicStudents\":
+        38,\r\n      \"numberofIndianStudents\": 4,\r\n      \"numberofPacificIslanderStudents\":
+        null,\r\n      \"numberofWhiteStudents\": 223,\r\n      \"numberofTwoOrMoreRaceStudents\":
+        null,\r\n      \"numberofUnspecifiedRaceStudents\": 1\r\n    },\r\n    {\r\n
+        \     \"year\": 2008,\r\n      \"numberOfStudents\": 224,\r\n      \"percentFreeDiscLunch\":
+        null,\r\n      \"percentofAfricanAmericanStudents\": 2.23,\r\n      \"percentofAsianStudents\":
+        5.80,\r\n      \"percentofHispanicStudents\": 11.16,\r\n      \"percentofIndianStudents\":
+        2.23,\r\n      \"percentofPacificIslanderStudents\": null,\r\n      \"percentofWhiteStudents\":
+        78.57,\r\n      \"percentofTwoOrMoreRaceStudents\": null,\r\n      \"percentofUnspecifiedRaceStudents\":
+        0.0,\r\n      \"teachersFulltime\": 17.8,\r\n      \"pupilTeacherRatio\":
+        12.6,\r\n      \"numberofAfricanAmericanStudents\": 5,\r\n      \"numberofAsianStudents\":
+        13,\r\n      \"numberofHispanicStudents\": 25,\r\n      \"numberofIndianStudents\":
+        5,\r\n      \"numberofPacificIslanderStudents\": null,\r\n      \"numberofWhiteStudents\":
+        176,\r\n      \"numberofTwoOrMoreRaceStudents\": null,\r\n      \"numberofUnspecifiedRaceStudents\":
+        0\r\n    },\r\n    {\r\n      \"year\": 2007,\r\n      \"numberOfStudents\":
+        372,\r\n      \"percentFreeDiscLunch\": 1.9,\r\n      \"percentofAfricanAmericanStudents\":
+        3.23,\r\n      \"percentofAsianStudents\": 5.11,\r\n      \"percentofHispanicStudents\":
+        10.48,\r\n      \"percentofIndianStudents\": 0.54,\r\n      \"percentofPacificIslanderStudents\":
+        null,\r\n      \"percentofWhiteStudents\": 80.65,\r\n      \"percentofTwoOrMoreRaceStudents\":
+        null,\r\n      \"percentofUnspecifiedRaceStudents\": 0.0,\r\n      \"teachersFulltime\":
+        15.9,\r\n      \"pupilTeacherRatio\": 23.4,\r\n      \"numberofAfricanAmericanStudents\":
+        12,\r\n      \"numberofAsianStudents\": 19,\r\n      \"numberofHispanicStudents\":
+        39,\r\n      \"numberofIndianStudents\": 2,\r\n      \"numberofPacificIslanderStudents\":
+        null,\r\n      \"numberofWhiteStudents\": 300,\r\n      \"numberofTwoOrMoreRaceStudents\":
+        null,\r\n      \"numberofUnspecifiedRaceStudents\": 0\r\n    },\r\n    {\r\n
+        \     \"year\": 2006,\r\n      \"numberOfStudents\": 308,\r\n      \"percentFreeDiscLunch\":
+        0.0,\r\n      \"percentofAfricanAmericanStudents\": 1.95,\r\n      \"percentofAsianStudents\":
+        4.55,\r\n      \"percentofHispanicStudents\": 10.39,\r\n      \"percentofIndianStudents\":
+        3.25,\r\n      \"percentofPacificIslanderStudents\": null,\r\n      \"percentofWhiteStudents\":
+        79.87,\r\n      \"percentofTwoOrMoreRaceStudents\": null,\r\n      \"percentofUnspecifiedRaceStudents\":
+        0.0,\r\n      \"teachersFulltime\": 22.0,\r\n      \"pupilTeacherRatio\":
+        14.0,\r\n      \"numberofAfricanAmericanStudents\": 6,\r\n      \"numberofAsianStudents\":
+        14,\r\n      \"numberofHispanicStudents\": 32,\r\n      \"numberofIndianStudents\":
+        10,\r\n      \"numberofPacificIslanderStudents\": null,\r\n      \"numberofWhiteStudents\":
+        246,\r\n      \"numberofTwoOrMoreRaceStudents\": null,\r\n      \"numberofUnspecifiedRaceStudents\":
+        0\r\n    },\r\n    {\r\n      \"year\": 2005,\r\n      \"numberOfStudents\":
+        145,\r\n      \"percentFreeDiscLunch\": 0.0,\r\n      \"percentofAfricanAmericanStudents\":
+        0.69,\r\n      \"percentofAsianStudents\": 1.38,\r\n      \"percentofHispanicStudents\":
+        6.21,\r\n      \"percentofIndianStudents\": 2.76,\r\n      \"percentofPacificIslanderStudents\":
+        null,\r\n      \"percentofWhiteStudents\": 88.97,\r\n      \"percentofTwoOrMoreRaceStudents\":
+        null,\r\n      \"percentofUnspecifiedRaceStudents\": 0.0,\r\n      \"teachersFulltime\":
+        15.7,\r\n      \"pupilTeacherRatio\": 9.2,\r\n      \"numberofAfricanAmericanStudents\":
+        1,\r\n      \"numberofAsianStudents\": 2,\r\n      \"numberofHispanicStudents\":
+        9,\r\n      \"numberofIndianStudents\": 4,\r\n      \"numberofPacificIslanderStudents\":
+        null,\r\n      \"numberofWhiteStudents\": 129,\r\n      \"numberofTwoOrMoreRaceStudents\":
+        null,\r\n      \"numberofUnspecifiedRaceStudents\": 0\r\n    }\r\n  ]\r\n}"
+    http_version: 
+  recorded_at: Thu, 07 Mar 2019 19:31:15 GMT
+recorded_with: VCR 4.0.0

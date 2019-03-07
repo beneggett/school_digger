@@ -1,0 +1,110 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.schooldigger.com/v1.1/autocomplete/schools?appID=<SCHOOL_DIGGER_APP_ID>&appKey=<SCHOOL_DIGGER_APP_KEY>&q=San%20Die&st=CA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '4274'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/10.0
+      X-Rate-Limit-Limit:
+      - '500'
+      X-Rate-Limit-Remaining:
+      - '490'
+      X-Rate-Limit-Reset:
+      - '60'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Thu, 07 Mar 2019 19:31:24 GMT
+    body:
+      encoding: UTF-8
+      string: "{\r\n  \"schoolMatches\": [\r\n    {\r\n      \"schoolid\": \"069999944581\",\r\n
+        \     \"schoolName\": \"Halstrom Academy-San Diego\",\r\n      \"city\": \"San
+        Diego\",\r\n      \"state\": \"CA\",\r\n      \"zip\": \"92131\",\r\n      \"schoolLevel\":
+        \"Private\",\r\n      \"lowGrade\": \"06\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"latitude\": 32.915351,\r\n      \"longitude\": -117.113582,\r\n      \"hasBoundary\":
+        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
+        null\r\n    },\r\n    {\r\n      \"schoolid\": \"060004213918\",\r\n      \"schoolName\":
+        \"California Pacific Charter - San Diego\",\r\n      \"city\": \"Warner Springs\",\r\n
+        \     \"state\": \"CA\",\r\n      \"zip\": \"92086\",\r\n      \"schoolLevel\":
+        \"Alternative\",\r\n      \"lowGrade\": \"KG\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"latitude\": 33.274332,\r\n      \"longitude\": -116.643105,\r\n      \"hasBoundary\":
+        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
+        null\r\n    },\r\n    {\r\n      \"schoolid\": \"069999908133\",\r\n      \"schoolName\":
+        \"San Diego Jewish Academy\",\r\n      \"city\": \"San Diego\",\r\n      \"state\":
+        \"CA\",\r\n      \"zip\": \"92130\",\r\n      \"schoolLevel\": \"Private\",\r\n
+        \     \"lowGrade\": \"PK\",\r\n      \"highGrade\": \"12\",\r\n      \"latitude\":
+        32.934456,\r\n      \"longitude\": -117.226031,\r\n      \"hasBoundary\":
+        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
+        null\r\n    },\r\n    {\r\n      \"schoolid\": \"063768010641\",\r\n      \"schoolName\":
+        \"California Virtual Academy @ San Diego\",\r\n      \"city\": \"Simi Valley\",\r\n
+        \     \"state\": \"CA\",\r\n      \"zip\": \"93065\",\r\n      \"schoolLevel\":
+        \"Alternative\",\r\n      \"lowGrade\": \"KG\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"latitude\": 34.27583,\r\n      \"longitude\": -118.798061,\r\n      \"hasBoundary\":
+        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
+        null\r\n    },\r\n    {\r\n      \"schoolid\": \"063768013030\",\r\n      \"schoolName\":
+        \"Insight @ San Diego\",\r\n      \"city\": \"Simi Valley\",\r\n      \"state\":
+        \"CA\",\r\n      \"zip\": \"93065\",\r\n      \"schoolLevel\": \"Alternative\",\r\n
+        \     \"lowGrade\": \"KG\",\r\n      \"highGrade\": \"12\",\r\n      \"latitude\":
+        34.27583,\r\n      \"longitude\": -118.798061,\r\n      \"hasBoundary\": false,\r\n
+        \     \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\": null\r\n
+        \   },\r\n    {\r\n      \"schoolid\": \"069999948608\",\r\n      \"schoolName\":
+        \"San Diego Liberal Arts Academy\",\r\n      \"city\": \"San Diego\",\r\n
+        \     \"state\": \"CA\",\r\n      \"zip\": \"92127\",\r\n      \"schoolLevel\":
+        \"Private\",\r\n      \"lowGrade\": \"04\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"latitude\": 33.00213,\r\n      \"longitude\": -117.087821,\r\n      \"hasBoundary\":
+        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
+        null\r\n    },\r\n    {\r\n      \"schoolid\": \"063438005577\",\r\n      \"schoolName\":
+        \"San Dieguito High Academy\",\r\n      \"city\": \"Encinitas\",\r\n      \"state\":
+        \"CA\",\r\n      \"zip\": \"92024\",\r\n      \"schoolLevel\": \"High\",\r\n
+        \     \"lowGrade\": \"09\",\r\n      \"highGrade\": \"12\",\r\n      \"latitude\":
+        33.037855,\r\n      \"longitude\": -117.274552,\r\n      \"hasBoundary\":
+        true,\r\n      \"rank\": 141,\r\n      \"rankOf\": 2017,\r\n      \"rankStars\":
+        5\r\n    },\r\n    {\r\n      \"schoolid\": \"062610012823\",\r\n      \"schoolName\":
+        \"Pivot Charter School - San Diego\",\r\n      \"city\": \"San Marcos\",\r\n
+        \     \"state\": \"CA\",\r\n      \"zip\": \"92078\",\r\n      \"schoolLevel\":
+        \"Alternative\",\r\n      \"lowGrade\": \"KG\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"latitude\": 33.12439,\r\n      \"longitude\": -117.208791,\r\n      \"hasBoundary\":
+        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
+        null\r\n    },\r\n    {\r\n      \"schoolid\": \"064071013696\",\r\n      \"schoolName\":
+        \"Taylion San Diego Academy\",\r\n      \"city\": \"San Marcos\",\r\n      \"state\":
+        \"CA\",\r\n      \"zip\": \"92069\",\r\n      \"schoolLevel\": \"Alternative\",\r\n
+        \     \"lowGrade\": \"KG\",\r\n      \"highGrade\": \"12\",\r\n      \"latitude\":
+        33.151633,\r\n      \"longitude\": -117.198978,\r\n      \"hasBoundary\":
+        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
+        null\r\n    },\r\n    {\r\n      \"schoolid\": \"062610012408\",\r\n      \"schoolName\":
+        \"San Diego Neighborhood Homeschools\",\r\n      \"city\": \"Oceanside\",\r\n
+        \     \"state\": \"CA\",\r\n      \"zip\": \"92056\",\r\n      \"schoolLevel\":
+        \"Alternative\",\r\n      \"lowGrade\": \"KG\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"latitude\": 33.204871,\r\n      \"longitude\": -117.308189,\r\n      \"hasBoundary\":
+        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
+        null\r\n    }\r\n  ]\r\n}"
+    http_version: 
+  recorded_at: Thu, 07 Mar 2019 19:31:23 GMT
+recorded_with: VCR 4.0.0
