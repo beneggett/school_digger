@@ -7,6 +7,7 @@ require 'coveralls'
 Coveralls.wear!
 
 SimpleCov.formatters = [
+  Coveralls::SimpleCov::Formatter,
   SimpleCov::Formatter::HTMLFormatter,
 ]
 
