@@ -1,12 +1,10 @@
 module SchoolDigger
   class Api
-    SCHOOL_DIGGER_URL_ENDPOINT = ENV.fetch("SCHOOL_DIGGER_BASE_URL", "https://api.schooldigger.com")
-    SCHOOL_DIGGER_API_VERSION = ENV.fetch("SCHOOL_DIGGER_API_VERSION", "1.1")
-    SCHOOL_DIGGER_URL_BASE = "#{SCHOOL_DIGGER_URL_ENDPOINT}/v#{SCHOOL_DIGGER_API_VERSION}"
+
     include HTTParty
 
     def get(path, query = {})
-      response = self.class.get(SCHOOL_DIGGER_URL_BASE + path, query: modify_query(query), timeout: 30)
+      response = self.class.get(school_digger_url_base + path, query: modify_query(query), timeout: 30)
     end
 
     # # SchoolDigger::Api.new.autocomplete('San Die', st: "CA")
@@ -93,6 +91,20 @@ module SchoolDigger
       }
       default_params.merge query
     end
+
+
+    def school_digger_url_endpoint
+      @school_digger_url_endpoint ||= ENV.fetch("SCHOOL_DIGGER_BASE_URL", "https://api.schooldigger.com")
+    end
+
+    def school_digger_api_version
+      @school_digger_api_version ||= ENV.fetch("SCHOOL_DIGGER_API_VERSION", "1.1")
+    end
+    
+    def school_digger_url_base
+      @school_digger_url_base ||= "#{school_digger_url_endpoint}/v#{school_digger_api_version}"
+    end
+
 
   end
 end
