@@ -1,12 +1,12 @@
 module SchoolDigger
   class Api
-    URL_ENDPOINT = ENV.fetch("SCHOOL_DIGGER_BASE_URL", "https://api.schooldigger.com")
-    API_VERSION = ENV.fetch("SCHOOL_DIGGER_API_VERSION", "1.1")
-    URL_BASE = "#{URL_ENDPOINT}/v#{API_VERSION}"
+    SCHOOL_DIGGER_URL_ENDPOINT = ENV.fetch("SCHOOL_DIGGER_BASE_URL", "https://api.schooldigger.com")
+    SCHOOL_DIGGER_API_VERSION = ENV.fetch("SCHOOL_DIGGER_API_VERSION", "1.1")
+    SCHOOL_DIGGER_URL_BASE = "#{SCHOOL_DIGGER_URL_ENDPOINT}/v#{SCHOOL_DIGGER_API_VERSION}"
     include HTTParty
 
     def get(path, query = {})
-      response = self.class.get(URL_BASE + path, query: modify_query(query), timeout: 30)
+      response = self.class.get(SCHOOL_DIGGER_URL_BASE + path, query: modify_query(query), timeout: 30)
     end
 
     # # SchoolDigger::Api.new.autocomplete('San Die', st: "CA")
