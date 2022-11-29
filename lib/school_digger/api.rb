@@ -3,6 +3,13 @@ module SchoolDigger
 
     include HTTParty
 
+    attr_reader :app_id, :app_key 
+    
+    def initialize(options = {})
+      @app_id = options.fetch(:app_id, default_app_id)
+      @app_key = options.fetch(:app_key, default_app_key)
+    end
+
     def get(path, query = {})
       response = self.class.get(school_digger_url_base + path, query: modify_query(query), timeout: 30)
     end
@@ -86,12 +93,19 @@ module SchoolDigger
 
     def modify_query(query)
       default_params = {
-        appID: ENV.fetch("SCHOOL_DIGGER_APP_ID", 'not-implemented'),
-        appKey:  ENV.fetch("SCHOOL_DIGGER_APP_KEY", 'not-implemented')
+        appID: app_id,
+        appKey: app_key
       }
       default_params.merge query
     end
 
+    def default_app_id 
+      ENV.fetch("SCHOOL_DIGGER_APP_ID", 'not-implemented')
+    end
+
+    def default_app_key 
+      ENV.fetch("SCHOOL_DIGGER_APP_KEY", 'not-implemented')
+    end
 
     def school_digger_url_endpoint
       @school_digger_url_endpoint ||= ENV.fetch("SCHOOL_DIGGER_BASE_URL", "https://api.schooldigger.com")
