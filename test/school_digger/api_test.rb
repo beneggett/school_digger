@@ -70,7 +70,7 @@ class SchoolDigger::ApiTest < Minitest::Test
         VCR.use_cassette('school_rankings by state CA', match_requests_on: [:query]) do
           response = SchoolDigger::Api.new.school_rankings('CA')
           assert response.success?
-          assert_equal 5709, response.dig("numberOfSchools")
+          assert_equal 5862, response.dig("numberOfSchools")
         end
       end
     end

@@ -3,11 +3,12 @@ module SchoolDigger
 
     include HTTParty
 
-    attr_reader :app_id, :app_key 
-    
+    attr_reader :app_id, :app_key, :api_version
+
     def initialize(options = {})
       @app_id = options.fetch(:app_id, default_app_id)
       @app_key = options.fetch(:app_key, default_app_key)
+      @api_version = options.fetch(:api_version, default_api_version)
     end
 
     def get(path, query = {})
@@ -16,7 +17,7 @@ module SchoolDigger
 
     # # SchoolDigger::Api.new.autocomplete('San Die', st: "CA")
     def autocomplete(query, options = {} )
-      available_options = %w(q st level boxLatitudeNW boxLongitudeNW boxLatitudeSE boxLongitudeSE returnCount)
+      available_options = %w(q st level eSE boxLongitudeSE returnCount)
       options = options.select {|k,v| available_options.include?(k.to_s)}
       options[:q] = query
       get "/autocomplete/schools", options
@@ -99,26 +100,26 @@ module SchoolDigger
       default_params.merge query
     end
 
-    def default_app_id 
+    def default_app_id
       ENV.fetch("SCHOOL_DIGGER_APP_ID", 'not-implemented')
     end
 
-    def default_app_key 
+    def default_app_key
       ENV.fetch("SCHOOL_DIGGER_APP_KEY", 'not-implemented')
+    end
+
+    def default_api_version
+      ENV.fetch("SCHOOL_DIGGER_API_VERSION", "1.1")
     end
 
     def school_digger_url_endpoint
       @school_digger_url_endpoint ||= ENV.fetch("SCHOOL_DIGGER_BASE_URL", "https://api.schooldigger.com")
     end
 
-    def school_digger_api_version
-      @school_digger_api_version ||= ENV.fetch("SCHOOL_DIGGER_API_VERSION", "1.1")
-    end
-    
-    def school_digger_url_base
-      @school_digger_url_base ||= "#{school_digger_url_endpoint}/v#{school_digger_api_version}"
-    end
 
+    def school_digger_url_base
+      @school_digger_url_base ||= "#{school_digger_url_endpoint}/v#{api_version}"
+    end
 
   end
 end

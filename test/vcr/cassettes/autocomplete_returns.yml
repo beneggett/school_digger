@@ -18,93 +18,116 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Date:
+      - Tue, 12 Nov 2024 19:26:51 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
       Cache-Control:
       - no-cache
       Pragma:
       - no-cache
-      Content-Length:
-      - '4274'
-      Content-Type:
-      - application/json; charset=utf-8
       Expires:
       - "-1"
-      Server:
-      - Microsoft-IIS/10.0
+      X-Dayrate-Limit-Limit:
+      - '5000'
+      X-Dayrate-Limit-Remaining:
+      - '4973'
+      X-Dayrate-Limit-Reset:
+      - '16388'
       X-Rate-Limit-Limit:
-      - '500'
+      - '100'
       X-Rate-Limit-Remaining:
-      - '490'
+      - '85'
       X-Rate-Limit-Reset:
-      - '60'
+      - '8'
       X-Aspnet-Version:
       - 4.0.30319
+      Request-Context:
+      - appId=cid-v1:033a6ceb-e757-41c0-a625-40bd09f6a501
+      Access-Control-Expose-Headers:
+      - Request-Context
       X-Powered-By:
       - ASP.NET
-      Date:
-      - Thu, 07 Mar 2019 19:31:24 GMT
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=eNGdt0MJIcnhJmpdi6GdLtDKM61oO3%2FMqxfCnZGVX4XjtxuDWPZ%2BDrXiXUEQvBPqumtYTPAoUpJjNSu%2BHUFgx3diM7ffaNK6l9PP1dcBdZbaQiLkgty%2FDA0%2FtUpiLwRDYV6YU06%2F"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 8e18ea81cd3751e9-DEN
+      Server-Timing:
+      - cfL4;desc="?proto=TCP&rtt=31434&sent=4&recv=6&lost=0&retrans=0&sent_bytes=2808&recv_bytes=846&delivery_rate=90409&cwnd=242&unsent_bytes=0&cid=d949c7d2ffbc66e5&ts=332&x=0"
     body:
-      encoding: UTF-8
+      encoding: ASCII-8BIT
       string: "{\r\n  \"schoolMatches\": [\r\n    {\r\n      \"schoolid\": \"069999944581\",\r\n
-        \     \"schoolName\": \"Halstrom Academy-San Diego\",\r\n      \"city\": \"San
-        Diego\",\r\n      \"state\": \"CA\",\r\n      \"zip\": \"92131\",\r\n      \"schoolLevel\":
-        \"Private\",\r\n      \"lowGrade\": \"06\",\r\n      \"highGrade\": \"12\",\r\n
-        \     \"latitude\": 32.915351,\r\n      \"longitude\": -117.113582,\r\n      \"hasBoundary\":
-        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
-        null\r\n    },\r\n    {\r\n      \"schoolid\": \"060004213918\",\r\n      \"schoolName\":
-        \"California Pacific Charter - San Diego\",\r\n      \"city\": \"Warner Springs\",\r\n
-        \     \"state\": \"CA\",\r\n      \"zip\": \"92086\",\r\n      \"schoolLevel\":
-        \"Alternative\",\r\n      \"lowGrade\": \"KG\",\r\n      \"highGrade\": \"12\",\r\n
-        \     \"latitude\": 33.274332,\r\n      \"longitude\": -116.643105,\r\n      \"hasBoundary\":
-        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
-        null\r\n    },\r\n    {\r\n      \"schoolid\": \"069999908133\",\r\n      \"schoolName\":
-        \"San Diego Jewish Academy\",\r\n      \"city\": \"San Diego\",\r\n      \"state\":
-        \"CA\",\r\n      \"zip\": \"92130\",\r\n      \"schoolLevel\": \"Private\",\r\n
-        \     \"lowGrade\": \"PK\",\r\n      \"highGrade\": \"12\",\r\n      \"latitude\":
-        32.934456,\r\n      \"longitude\": -117.226031,\r\n      \"hasBoundary\":
-        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
-        null\r\n    },\r\n    {\r\n      \"schoolid\": \"063768010641\",\r\n      \"schoolName\":
-        \"California Virtual Academy @ San Diego\",\r\n      \"city\": \"Simi Valley\",\r\n
-        \     \"state\": \"CA\",\r\n      \"zip\": \"93065\",\r\n      \"schoolLevel\":
-        \"Alternative\",\r\n      \"lowGrade\": \"KG\",\r\n      \"highGrade\": \"12\",\r\n
-        \     \"latitude\": 34.27583,\r\n      \"longitude\": -118.798061,\r\n      \"hasBoundary\":
-        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
-        null\r\n    },\r\n    {\r\n      \"schoolid\": \"063768013030\",\r\n      \"schoolName\":
-        \"Insight @ San Diego\",\r\n      \"city\": \"Simi Valley\",\r\n      \"state\":
-        \"CA\",\r\n      \"zip\": \"93065\",\r\n      \"schoolLevel\": \"Alternative\",\r\n
-        \     \"lowGrade\": \"KG\",\r\n      \"highGrade\": \"12\",\r\n      \"latitude\":
-        34.27583,\r\n      \"longitude\": -118.798061,\r\n      \"hasBoundary\": false,\r\n
+        \     \"schoolName\": \"Fusion San Diego Scripps Ranch\",\r\n      \"city\":
+        \"San Diego\",\r\n      \"state\": \"CA\",\r\n      \"zip\": \"92131\",\r\n
+        \     \"schoolLevel\": \"Private\",\r\n      \"lowGrade\": \"06\",\r\n      \"highGrade\":
+        \"12\",\r\n      \"latitude\": 32.91506,\r\n      \"longitude\": -117.113281,\r\n
+        \     \"hasBoundary\": false,\r\n      \"rank\": null,\r\n      \"rankOf\":
+        null,\r\n      \"rankStars\": null\r\n    },\r\n    {\r\n      \"schoolid\":
+        \"063438005577\",\r\n      \"schoolName\": \"San Dieguito High School Academy\",\r\n
+        \     \"city\": \"Encinitas\",\r\n      \"state\": \"CA\",\r\n      \"zip\":
+        \"92024\",\r\n      \"schoolLevel\": \"High\",\r\n      \"lowGrade\": \"09\",\r\n
+        \     \"highGrade\": \"12\",\r\n      \"latitude\": 33.0379,\r\n      \"longitude\":
+        -117.2746,\r\n      \"hasBoundary\": true,\r\n      \"rank\": 160,\r\n      \"rankOf\":
+        2323,\r\n      \"rankStars\": 5\r\n    },\r\n    {\r\n      \"schoolid\":
+        \"063432008962\",\r\n      \"schoolName\": \"San Diego SCPA\",\r\n      \"city\":
+        \"San Diego\",\r\n      \"state\": \"CA\",\r\n      \"zip\": \"92139\",\r\n
+        \     \"schoolLevel\": \"High\",\r\n      \"lowGrade\": \"06\",\r\n      \"highGrade\":
+        \"12\",\r\n      \"latitude\": 32.679784,\r\n      \"longitude\": -117.048567,\r\n
+        \     \"hasBoundary\": false,\r\n      \"rank\": 547,\r\n      \"rankOf\":
+        2323,\r\n      \"rankStars\": 4\r\n    },\r\n    {\r\n      \"schoolid\":
+        \"069999908130\",\r\n      \"schoolName\": \"San Diego Academy\",\r\n      \"city\":
+        \"National City\",\r\n      \"state\": \"CA\",\r\n      \"zip\": \"91950\",\r\n
+        \     \"schoolLevel\": \"Private\",\r\n      \"lowGrade\": \"KG\",\r\n      \"highGrade\":
+        \"12\",\r\n      \"latitude\": 32.68689,\r\n      \"longitude\": -117.077751,\r\n
+        \     \"hasBoundary\": false,\r\n      \"rank\": null,\r\n      \"rankOf\":
+        null,\r\n      \"rankStars\": null\r\n    },\r\n    {\r\n      \"schoolid\":
+        \"063432011153\",\r\n      \"schoolName\": \"San Diego High\",\r\n      \"city\":
+        \"San Diego\",\r\n      \"state\": \"CA\",\r\n      \"zip\": \"92101\",\r\n
+        \     \"schoolLevel\": \"High\",\r\n      \"lowGrade\": \"09\",\r\n      \"highGrade\":
+        \"12\",\r\n      \"latitude\": 32.720126,\r\n      \"longitude\": -117.153219,\r\n
+        \     \"hasBoundary\": true,\r\n      \"rank\": 1040,\r\n      \"rankOf\":
+        2323,\r\n      \"rankStars\": 3\r\n    },\r\n    {\r\n      \"schoolid\":
+        \"069103013682\",\r\n      \"schoolName\": \"San Diego County Community\",\r\n
+        \     \"city\": \"San Diego\",\r\n      \"state\": \"CA\",\r\n      \"zip\":
+        \"92111\",\r\n      \"schoolLevel\": \"Alternative\",\r\n      \"lowGrade\":
+        \"KG\",\r\n      \"highGrade\": \"12\",\r\n      \"latitude\": 32.76963,\r\n
+        \     \"longitude\": -117.179862,\r\n      \"hasBoundary\": false,\r\n      \"rank\":
+        2775,\r\n      \"rankOf\": 2777,\r\n      \"rankStars\": 0\r\n    },\r\n    {\r\n
+        \     \"schoolid\": \"069999940264\",\r\n      \"schoolName\": \"Montessori
+        School Of San Diego\",\r\n      \"city\": \"San Diego\",\r\n      \"state\":
+        \"CA\",\r\n      \"zip\": \"92103\",\r\n      \"schoolLevel\": \"Private\",\r\n
+        \     \"lowGrade\": \"PK\",\r\n      \"highGrade\": \"03\",\r\n      \"latitude\":
+        32.73666,\r\n      \"longitude\": -117.174531,\r\n      \"hasBoundary\": false,\r\n
         \     \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\": null\r\n
-        \   },\r\n    {\r\n      \"schoolid\": \"069999948608\",\r\n      \"schoolName\":
-        \"San Diego Liberal Arts Academy\",\r\n      \"city\": \"San Diego\",\r\n
-        \     \"state\": \"CA\",\r\n      \"zip\": \"92127\",\r\n      \"schoolLevel\":
-        \"Private\",\r\n      \"lowGrade\": \"04\",\r\n      \"highGrade\": \"12\",\r\n
-        \     \"latitude\": 33.00213,\r\n      \"longitude\": -117.087821,\r\n      \"hasBoundary\":
+        \   },\r\n    {\r\n      \"schoolid\": \"069999908986\",\r\n      \"schoolName\":
+        \"The Waldorf School Of San Diego\",\r\n      \"city\": \"San Diego\",\r\n
+        \     \"state\": \"CA\",\r\n      \"zip\": \"92105\",\r\n      \"schoolLevel\":
+        \"Private\",\r\n      \"lowGrade\": \"PK\",\r\n      \"highGrade\": \"12\",\r\n
+        \     \"latitude\": 32.74307,\r\n      \"longitude\": -117.085462,\r\n      \"hasBoundary\":
         false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
-        null\r\n    },\r\n    {\r\n      \"schoolid\": \"063438005577\",\r\n      \"schoolName\":
-        \"San Dieguito High Academy\",\r\n      \"city\": \"Encinitas\",\r\n      \"state\":
-        \"CA\",\r\n      \"zip\": \"92024\",\r\n      \"schoolLevel\": \"High\",\r\n
-        \     \"lowGrade\": \"09\",\r\n      \"highGrade\": \"12\",\r\n      \"latitude\":
-        33.037855,\r\n      \"longitude\": -117.274552,\r\n      \"hasBoundary\":
-        true,\r\n      \"rank\": 141,\r\n      \"rankOf\": 2017,\r\n      \"rankStars\":
-        5\r\n    },\r\n    {\r\n      \"schoolid\": \"062610012823\",\r\n      \"schoolName\":
-        \"Pivot Charter School - San Diego\",\r\n      \"city\": \"San Marcos\",\r\n
-        \     \"state\": \"CA\",\r\n      \"zip\": \"92078\",\r\n      \"schoolLevel\":
-        \"Alternative\",\r\n      \"lowGrade\": \"KG\",\r\n      \"highGrade\": \"12\",\r\n
-        \     \"latitude\": 33.12439,\r\n      \"longitude\": -117.208791,\r\n      \"hasBoundary\":
-        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
-        null\r\n    },\r\n    {\r\n      \"schoolid\": \"064071013696\",\r\n      \"schoolName\":
-        \"Taylion San Diego Academy\",\r\n      \"city\": \"San Marcos\",\r\n      \"state\":
-        \"CA\",\r\n      \"zip\": \"92069\",\r\n      \"schoolLevel\": \"Alternative\",\r\n
-        \     \"lowGrade\": \"KG\",\r\n      \"highGrade\": \"12\",\r\n      \"latitude\":
-        33.151633,\r\n      \"longitude\": -117.198978,\r\n      \"hasBoundary\":
-        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
-        null\r\n    },\r\n    {\r\n      \"schoolid\": \"062610012408\",\r\n      \"schoolName\":
-        \"San Diego Neighborhood Homeschools\",\r\n      \"city\": \"Oceanside\",\r\n
-        \     \"state\": \"CA\",\r\n      \"zip\": \"92056\",\r\n      \"schoolLevel\":
-        \"Alternative\",\r\n      \"lowGrade\": \"KG\",\r\n      \"highGrade\": \"12\",\r\n
-        \     \"latitude\": 33.204871,\r\n      \"longitude\": -117.308189,\r\n      \"hasBoundary\":
-        false,\r\n      \"rank\": null,\r\n      \"rankOf\": null,\r\n      \"rankStars\":
-        null\r\n    }\r\n  ]\r\n}"
+        null\r\n    },\r\n    {\r\n      \"schoolid\": \"060681008802\",\r\n      \"schoolName\":
+        \"Rancho San Diego Elementary\",\r\n      \"city\": \"El Cajon\",\r\n      \"state\":
+        \"CA\",\r\n      \"zip\": \"92019\",\r\n      \"schoolLevel\": \"Elementary\",\r\n
+        \     \"lowGrade\": \"KG\",\r\n      \"highGrade\": \"05\",\r\n      \"latitude\":
+        32.7537,\r\n      \"longitude\": -116.9337,\r\n      \"hasBoundary\": true,\r\n
+        \     \"rank\": 1718,\r\n      \"rankOf\": 5862,\r\n      \"rankStars\": 4\r\n
+        \   },\r\n    {\r\n      \"schoolid\": \"069999948395\",\r\n      \"schoolName\":
+        \"Childrens Creative/Performing Arts Academy San Diego\",\r\n      \"city\":
+        \"San Diego\",\r\n      \"state\": \"CA\",\r\n      \"zip\": \"92104\",\r\n
+        \     \"schoolLevel\": \"Private\",\r\n      \"lowGrade\": \"PK\",\r\n      \"highGrade\":
+        \"12\",\r\n      \"latitude\": 32.75492,\r\n      \"longitude\": -117.128621,\r\n
+        \     \"hasBoundary\": false,\r\n      \"rank\": null,\r\n      \"rankOf\":
+        null,\r\n      \"rankStars\": null\r\n    }\r\n  ]\r\n}"
     http_version: 
-  recorded_at: Thu, 07 Mar 2019 19:31:23 GMT
-recorded_with: VCR 4.0.0
+  recorded_at: Tue, 12 Nov 2024 19:26:51 GMT
+recorded_with: VCR 5.0.0
